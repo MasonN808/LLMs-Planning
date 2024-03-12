@@ -14,7 +14,7 @@ source .venv/bin/activate
 
 export OPENAI_API_KEY='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'
 
-export FAST_DOWNWARD='/nas/ucb/mason/LLMs-Planning/planner_tools/obs-compiler'
+export FAST_DOWNWARD='/nas/ucb/mason/LLMs-Planning/planner_tools/downward-main'
 
 export PR2='/nas/ucb/mason/LLMs-Planning/planner_tools/PR2'
 
