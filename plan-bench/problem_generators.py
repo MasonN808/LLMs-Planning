@@ -122,10 +122,10 @@ class Instance_Generator():
 
 
     def gen_goal_directed_instances(self, n_instances, max_objs):
-        if self.data['domain'] == 'blocksworld':
+        if self.data['domain_name'] == 'blocksworld':
             self.gen_goal_directed_instances_blocksworld(n_instances, max_objs)
             
-        elif self.data['domain'] == 'logistics':
+        elif self.data['domain_name'] == 'logistics':
             self.gen_goal_directed_instances_logistics(n_instances)
         else:
             raise NotImplementedError
@@ -466,7 +466,7 @@ if __name__ == '__main__':
     is_generalization = args.is_generalization
     n_instances = args.n_instances
     max_blocks = args.max_blocks
-    config_file = f'configs/{config_file}.json'
+    config_file = f'configs/{config_file}.yaml'
     assert os.path.exists(config_file), f'[-] Config file {config_file} does not exist'
     if is_generalization:
         ig = GeneralizationInstanceGenerator(config_file)
