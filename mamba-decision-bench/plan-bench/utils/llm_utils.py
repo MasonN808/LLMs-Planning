@@ -10,6 +10,13 @@ def generate_from_bloom(model, tokenizer, query, max_tokens):
     output_sequences = model.generate(input_ids=encoded_input['input_ids'].cuda(), max_new_tokens=max_tokens,
                                       temperature=0, top_p=1)
     return tokenizer.decode(output_sequences[0], skip_special_tokes=True)
+def generate_from_mamba(model, tokenizer, query, max_tokens):
+    encoded_input = tokenizer(query, return_tensors='pt')
+    stop = tokenizer("[PLAN END]", return_tensors='pt')
+    stoplist = StoppingCriteriaList([stop])
+    output_sequences = model.generate(input_ids=encoded_input['input_ids'].cuda(), max_new_tokens=max_tokens,
+                                      top_p=1)
+    return tokenizer.decode(output_sequences[0], skip_special_tokes=True)
 
 
 def send_query(query, engine, max_tokens, model=None, stop="[STATEMENT]"):
@@ -17,6 +24,19 @@ def send_query(query, engine, max_tokens, model=None, stop="[STATEMENT]"):
     if engine == 'bloom':
         if model:
             response = generate_from_bloom(model['model'], model['tokenizer'], query, max_tokens)
+            response = response.replace(query, '')
+            resp_string = ""
+            for line in response.split('\n'):
+                if '[PLAN END]' in line:
+                    break
+                else:
+                    resp_string += f'{line}\n'
+            return resp_string
+        else:
+            assert model is not None
+    if engine == 'mamba':
+        if model:
+            response = generate_from_mamba(model['model'], model['tokenizer'], query, max_tokens)
             response = response.replace(query, '')
             resp_string = ""
             for line in response.split('\n'):

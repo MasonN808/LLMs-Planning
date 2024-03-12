@@ -8,6 +8,9 @@ from pathlib import Path
 from tarski.io import PDDLReader
 import argparse
 import time
+import sys
+sys.path.insert(0, '../../mamba_hf/src')
+from modeling_mamba import MambaForCausalLM
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModel
 import json
 np.random.seed(42)
@@ -30,14 +33,33 @@ class ResponseGenerator:
             # print(model)
             self.engine='finetuned'
             self.model = {'model':model}
+        elif self.engine == 'mamba':
+            self.model = self.get_mamba()
+        elif self.engine == 'llama':
+            self.model = self.get_llama()
         else:
             self.model = None
+
     def read_config(self, config_file):
         with open(config_file, 'r') as file:
             return yaml.safe_load(file)
+
     def get_bloom(self):
         max_memory_mapping = {0: "0GB", 1: "43GB", 2: "43GB", 3: "43GB", 4: "43GB", 5: "43GB"}
         cache_dir = os.getenv('BLOOM_CACHE_DIR', '/data/karthik/LLM_models/bloom/')
+        tokenizer = AutoTokenizer.from_pretrained("bigscience/bloom")
+        model = AutoModelForCausalLM.from_pretrained("bigscience/bloom", cache_dir=cache_dir,
+                                                     local_files_only=False, load_in_8bit=True, device_map='auto',
+                                                     max_memory=max_memory_mapping)
+        return {'model': model, 'tokenizer': tokenizer}
+
+    def get_mamba(self):
+        tokenizer = AutoTokenizer.from_pretrained("Q-bert/Mamba-130M")
+        model = MambaForCausalLM.from_pretrained("Q-bert/Mamba-130M")
+        return {'model': model, 'tokenizer': tokenizer}
+
+    def get_llama(self):
+        # TODO: Finish this
         tokenizer = AutoTokenizer.from_pretrained("bigscience/bloom")
         model = AutoModelForCausalLM.from_pretrained("bigscience/bloom", cache_dir=cache_dir,
                                                      local_files_only=False, load_in_8bit=True, device_map='auto',
