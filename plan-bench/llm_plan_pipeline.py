@@ -51,7 +51,7 @@ if __name__=="__main__":
     random_example = eval(args.random_example)
     run_till_completion = eval(args.run_till_completion)
     # print(task, config, verbose, specified_instances, random_example)
-    config_file = f'./configs/{config}.yaml'
+    config_file = f'./plan-bench/configs/{config}.yaml'
 
 
     # ========================= Prompt Generation =========================

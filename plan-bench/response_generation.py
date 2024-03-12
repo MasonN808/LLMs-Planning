@@ -9,7 +9,7 @@ from tarski.io import PDDLReader
 import argparse
 import time
 import sys
-sys.path.insert(0, '../../mamba_hf/src')
+sys.path.insert(0, './mamba_hf/src')
 from modeling_mamba import MambaForCausalLM
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModel
 import json

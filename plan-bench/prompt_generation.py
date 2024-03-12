@@ -22,7 +22,7 @@ class PromptGenerator:
         self.plan_file = "sas_plan"
         self.data = self.read_config(config_file)
         self.instance_dir = self.data['instance_dir']
-        self.domain_pddl = f'./instances/{self.data["domain_file"]}'
+        self.domain_pddl = f'./plan-bench/instances/{self.data["domain_file"]}'
         self._set_task_params()
         self._set_seed(seed)
 
@@ -35,8 +35,8 @@ class PromptGenerator:
             instance_dir = self.instance_dir
         else:
             self.instance_dir = instance_dir
-        self.instance_folder = f'./instances/{instance_dir}/'
-        self.instance = f'./instances/{instance_dir}/{self.data["instances_template"]}'
+        self.instance_folder = f'./plan-bench/instances/{instance_dir}/'
+        self.instance = f'./plan-bench/instances/{instance_dir}/{self.data["instances_template"]}'
         self.n_files = min(self.data['n_instances'], len(os.listdir(self.instance_folder)))
 
         self.i_start = self.data['start']
