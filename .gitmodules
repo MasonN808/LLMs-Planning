@@ -1,4 +1,4 @@
 [submodule "mamba_hf"]
-	path = mamaba_hf
+	path = mamba_hf
 	url = https://github.com/MasonN808/mamba-hf.git
 	branch = main
