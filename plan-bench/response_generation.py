@@ -9,11 +9,6 @@ from tarski.io import PDDLReader
 import argparse
 import time
 import sys
-print(f"Current working directory: {os.getcwd()}")
-path_to_check = './mamba_hf/src'
-full_path = os.path.abspath(path_to_check)
-print(f"Full path to check: {full_path}")
-print(f"Contents of '{full_path}': {os.listdir(full_path)}")
 sys.path.insert(0, './mamba_hf/src')
 from modeling_mamba import MambaForCausalLM
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModel
