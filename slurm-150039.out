@@ -1,0 +1,14 @@
+/var/spool/slurm/slurmd/job150039/slurm_script: line 13: .venv/bin/activate: No such file or directory
+Traceback (most recent call last):
+  File "plan-bench/llm_plan_pipeline.py", line 4, in <module>
+    from prompt_generation import PromptGenerator
+  File "/nas/ucb/mason/LLMs-Planning/plan-bench/prompt_generation.py", line 5, in <module>
+    from Executor import Executor
+  File "/nas/ucb/mason/LLMs-Planning/plan-bench/Executor/__init__.py", line 7, in <module>
+    from model_parser.parser_new import parse_model
+  File "/nas/ucb/mason/LLMs-Planning/plan-bench/model_parser/__init__.py", line 1, in <module>
+    from .parser_new import parse_model
+  File "/nas/ucb/mason/LLMs-Planning/plan-bench/model_parser/parser_new.py", line 2, in <module>
+    import tarski
+ModuleNotFoundError: No module named 'tarski'
+srun: error: airl.ist.berkeley.edu: task 0: Exited with exit code 1
