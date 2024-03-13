@@ -1,0 +1,45 @@
+Current working directory: /nas/ucb/mason/LLMs-Planning
+Full path to check: /nas/ucb/mason/LLMs-Planning/mamba_hf/src
+Contents of '/nas/ucb/mason/LLMs-Planning/mamba_hf/src': ['__init__.py', 'modeling_mamba.py', 'configuration_mamba.py', 'requirements.txt', '__pycache__']
+  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 1010675.66it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+  0%|          | 0/100 [00:00<?, ?it/s]/nas/ucb/mason/LLMs-Planning/.venv/lib/python3.8/site-packages/transformers/generation/utils.py:1477: UserWarning: You are calling .generate() with the `input_ids` being on a device type different than your model's device. `input_ids` is on cuda, whereas the model is on cpu. You may experience unexpected behaviors or slower generation. Please make sure that you have put `input_ids` to the correct device by calling for example input_ids = input_ids.to('cpu') before running `.generate()`.
+  warnings.warn(
+  0%|          | 0/100 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "plan-bench/llm_plan_pipeline.py", line 98, in <module>
+    response_generator.get_responses(task_name, run_till_completion=run_till_completion)
+  File "/nas/ucb/mason/LLMs-Planning/plan-bench/response_generation.py", line 108, in get_responses
+    llm_response = send_query(query, self.engine, self.max_gpt_response_length, model=self.model, stop=stop_statement)
+  File "/nas/ucb/mason/LLMs-Planning/plan-bench/utils/llm_utils.py", line 39, in send_query
+    response = generate_from_mamba(model['model'], model['tokenizer'], query, max_tokens)
+  File "/nas/ucb/mason/LLMs-Planning/plan-bench/utils/llm_utils.py", line 17, in generate_from_mamba
+    output_sequences = model.generate(input_ids=encoded_input['input_ids'].cuda(), max_new_tokens=max_tokens,
+  File "/nas/ucb/mason/LLMs-Planning/.venv/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/nas/ucb/mason/LLMs-Planning/.venv/lib/python3.8/site-packages/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+  File "/nas/ucb/mason/LLMs-Planning/.venv/lib/python3.8/site-packages/transformers/generation/utils.py", line 2404, in greedy_search
+    outputs = self(
+  File "/nas/ucb/mason/LLMs-Planning/.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/nas/ucb/mason/LLMs-Planning/.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/nas/ucb/mason/LLMs-Planning/./mamba_hf/src/modeling_mamba.py", line 274, in forward
+    outputs = self.model(
+  File "/nas/ucb/mason/LLMs-Planning/.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/nas/ucb/mason/LLMs-Planning/.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/nas/ucb/mason/LLMs-Planning/./mamba_hf/src/modeling_mamba.py", line 226, in forward
+    x = self.embedding(input_ids)
+  File "/nas/ucb/mason/LLMs-Planning/.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/nas/ucb/mason/LLMs-Planning/.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/nas/ucb/mason/LLMs-Planning/.venv/lib/python3.8/site-packages/torch/nn/modules/sparse.py", line 163, in forward
+    return F.embedding(
+  File "/nas/ucb/mason/LLMs-Planning/.venv/lib/python3.8/site-packages/torch/nn/functional.py", line 2237, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument index in method wrapper_CUDA__index_select)
+srun: error: airl.ist.berkeley.edu: task 0: Exited with exit code 1
