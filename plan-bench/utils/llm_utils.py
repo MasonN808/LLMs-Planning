@@ -1,3 +1,4 @@
+import torch as th
 from transformers import StoppingCriteriaList, StoppingCriteria
 from openai import OpenAI
 
@@ -11,7 +12,10 @@ def generate_from_bloom(model, tokenizer, query, max_tokens):
                                       temperature=0, top_p=1)
     return tokenizer.decode(output_sequences[0], skip_special_tokes=True)
 def generate_from_mamba(model, tokenizer, query, max_tokens):
-    encoded_input = tokenizer(query, return_tensors='pt')
+    device = "cuda" if th.cuda.is_available() else "cpu"
+    # Move model to the selected device
+    model = model.to(device)
+    encoded_input = tokenizer(query, return_tensors='pt').to(device)
     stop = tokenizer("[PLAN END]", return_tensors='pt')
     stoplist = StoppingCriteriaList([stop])
     output_sequences = model.generate(input_ids=encoded_input['input_ids'].cuda(), max_new_tokens=max_tokens,
