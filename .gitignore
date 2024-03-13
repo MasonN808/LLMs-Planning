@@ -3,7 +3,7 @@
 */*.stats
 */*.tmp
 */*.sh
-*/*.out
+# */*.out
 */*.sas
 */llm_plan
 */rough.py
