@@ -20,6 +20,8 @@ export PR2='/nas/ucb/mason/LLMs-Planning/planner_tools/PR2'
 
 export VAL='/nas/ucb/mason/LLMs-Planning/planner_tools/VAL'
 
+export TOKENIZERS_PARALLELISM=true
+
 BASE_SCRIPT="plan-bench/llm_plan_pipeline.py"
 
 srun -N1 -n1 python3 $BASE_SCRIPT --task t1 --config blocksworld_3 --engine mamba
