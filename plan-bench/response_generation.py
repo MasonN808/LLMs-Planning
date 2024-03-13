@@ -9,8 +9,7 @@ from tarski.io import PDDLReader
 import argparse
 import time
 import sys
-sys.path.insert(0, './mamba_hf/src')
-from modeling_mamba import MambaForCausalLM
+from transformers import MambaForCausalLM
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModel
 import json
 np.random.seed(42)
@@ -54,8 +53,8 @@ class ResponseGenerator:
         return {'model': model, 'tokenizer': tokenizer}
 
     def get_mamba(self):
-        tokenizer = AutoTokenizer.from_pretrained("Q-bert/Mamba-130M")
-        model = MambaForCausalLM.from_pretrained("Q-bert/Mamba-130M")
+        tokenizer = AutoTokenizer.from_pretrained("state-spaces/mamba-130m")
+        model = MambaForCausalLM.from_pretrained("state-spaces/mamba-130m")
         return {'model': model, 'tokenizer': tokenizer}
 
     def get_llama(self):
