@@ -53,8 +53,8 @@ class ResponseGenerator:
         return {'model': model, 'tokenizer': tokenizer}
 
     def get_mamba(self):
-        tokenizer = AutoTokenizer.from_pretrained("state-spaces/mamba-130m")
-        model = MambaForCausalLM.from_pretrained("state-spaces/mamba-130m")
+        tokenizer = AutoTokenizer.from_pretrained("state-spaces/mamba-130m-hf")
+        model = MambaForCausalLM.from_pretrained("state-spaces/mamba-130m-hf")
         return {'model': model, 'tokenizer': tokenizer}
 
     def get_llama(self):
