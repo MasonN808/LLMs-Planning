@@ -14,6 +14,9 @@ utils/__pycache__/*
 env/
 venv/
 
+# Docker stuff
+*/*.tar
+
 
 llm_planning_analysis/configs/mystery_blocksworld_with_mapping.yaml
 llm_planning_analysis/diversity_evaluation.py
