@@ -24,19 +24,19 @@ class LogisticsGenerator:
     def __init__(self, config_file):
         random.seed(10)
         self.data = self.read_config(config_file)
-        self.instances_template_t5 = f"./instances/{self.data['generalized_instance_dir']}/{self.data['instances_template']}"
+        self.instances_template_t5 = f"./plan-bench/instances/{self.data['generalized_instance_dir']}/{self.data['instances_template']}"
         
         self.hashset = set()
         self.instances = []
-        os.makedirs(f"./instances/{self.data['generalized_instance_dir']}/", exist_ok=True)
+        os.makedirs(f"./plan-bench/instances/{self.data['generalized_instance_dir']}/", exist_ok=True)
     
     def read_config(self, config_file):
         with open(config_file, 'r') as file:
             return yaml.safe_load(file)
 
     def add_existing_files_to_hash_set(self, instance_dir=None):
-        for i in os.listdir(f"./instances/{instance_dir}/"):
-            f = open(f"./instances/{instance_dir}/" + i, "r")
+        for i in os.listdir(f"./plan-bench/instances/{instance_dir}/"):
+            f = open(f"./plan-bench/instances/{instance_dir}/" + i, "r")
             pddl = f.read()
             self.hashset.add(hashlib.md5(pddl.encode('utf-8')).hexdigest())
         return len(self.hashset)
@@ -121,12 +121,12 @@ class LogisticsGenerator:
 class BWGenerator:
     def __init__(self, config_file):
         self.data = self.read_config(config_file)
-        self.instances_template = f"./instances/{self.data['instance_dir']}/{self.data['instances_template']}"
-        self.instances_template_t5 = f"./instances/{self.data['generalized_instance_dir']}/{self.data['instances_template']}"
+        self.instances_template = f"./plan-bench/instances/{self.data['instance_dir']}/{self.data['instances_template']}"
+        self.instances_template_t5 = f"./plan-bench/instances/{self.data['generalized_instance_dir']}/{self.data['instances_template']}"
 
         self.hashset = set()
-        os.makedirs(f"./instances/{self.data['instance_dir']}/", exist_ok=True)
-        os.makedirs(f"./instances/{self.data['generalized_instance_dir']}/", exist_ok=True)
+        os.makedirs(f"./plan-bench/instances/{self.data['instance_dir']}/", exist_ok=True)
+        os.makedirs(f"./plan-bench/instances/{self.data['generalized_instance_dir']}/", exist_ok=True)
 
     def read_config(self, config_file):
         with open(config_file, 'r') as file:
@@ -147,8 +147,8 @@ class BWGenerator:
         return True
 
     def add_existing_files_to_hash_set(self, inst_dir):
-        for i in os.listdir(f"./instances/{inst_dir}/"):
-            f = open(f"./instances/{inst_dir}/" + i, "r")
+        for i in os.listdir(f"./plan-bench/instances/{inst_dir}/"):
+            f = open(f"./plan-bench/instances/{inst_dir}/" + i, "r")
             pddl = f.read()
             self.hashset.add(hashlib.md5(pddl.encode('utf-8')).hexdigest())
         return len(self.hashset)

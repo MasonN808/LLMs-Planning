@@ -1,0 +1,14 @@
+  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 989222.64it/s]
+Traceback (most recent call last):
+  File "plan-bench/llm_plan_pipeline.py", line 81, in <module>
+    response_generator = ResponseGenerator(config_file, engine, verbose, ignore_existing)
+  File "/nas/ucb/mason/LLMs-Planning/plan-bench/response_generation.py", line 36, in __init__
+    self.model = self.get_mamba()
+  File "/nas/ucb/mason/LLMs-Planning/plan-bench/response_generation.py", line 56, in get_mamba
+    tokenizer = AutoTokenizer.from_pretrained("state-spaces/mamba-130m")
+  File "/nas/ucb/mason/LLMs-Planning/.venv/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 852, in from_pretrained
+    return tokenizer_class_fast.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/nas/ucb/mason/LLMs-Planning/.venv/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 2043, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load tokenizer for 'state-spaces/mamba-130m'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'state-spaces/mamba-130m' is the correct path to a directory containing all relevant files for a GPTNeoXTokenizerFast tokenizer.
+srun: error: airl.ist.berkeley.edu: task 0: Exited with exit code 1

@@ -21,7 +21,7 @@ class ResponseEvaluator:
         self.specified_instances = specified_instances
         self.data = self.read_config(config_file)
         self.instance_dir = self.data['instance_dir']
-        self.domain_pddl = f'./instances/{self.data["domain_file"]}'
+        self.domain_pddl = f'./plan-bench/instances/{self.data["domain_file"]}'
         self.llm_plan_file = 'llm_plan'
         self._set_task_params()
 
@@ -32,14 +32,9 @@ class ResponseEvaluator:
     def _set_task_params(self, instance_dir=None):
         if instance_dir is None:
             instance_dir = self.instance_dir
-        self.instance_folder = f'./instances/{instance_dir}/'
-        self.instance = f'./instances/{instance_dir}/{self.data["instances_template"]}'
-        import os
-        print(f"Current working directory: {os.getcwd()}")
-        path_to_check =  self.instance_folder
-        full_path = os.path.abspath(path_to_check)
-        print(f"Full path to check: {full_path}")
-        print(f"Contents of '{full_path}': {os.listdir(full_path)}")
+        self.instance_folder = f'./plan-bench/instances/{instance_dir}/'
+        self.instance = f'./plan-bench/instances/{instance_dir}/{self.data["instances_template"]}'
+
         self.n_files = min(self.data['n_instances'], len(os.listdir(self.instance_folder)))
 
         self.i_start = self.data['start']

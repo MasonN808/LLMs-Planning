@@ -1,5 +1,5 @@
 
- Instance ./instances/generated_basic/instance-1.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-1.pddl
 
 ===================================  FAILURE ===================================
 
@@ -56,7 +56,7 @@ stack the orange block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-2.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-2.pddl
 
 ===================================  FAILURE ===================================
 
@@ -112,7 +112,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-3.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-3.pddl
 
 ===================================  FAILURE ===================================
 
@@ -184,7 +184,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-4.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-4.pddl
 
 ===================================  FAILURE ===================================
 
@@ -256,7 +256,7 @@ stack the red block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-5.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-5.pddl
 
 ===================================  FAILURE ===================================
 
@@ -305,7 +305,7 @@ unstack the yellow block from on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-6.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-6.pddl
 
 ===================================  FAILURE ===================================
 
@@ -376,7 +376,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-7.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-7.pddl
 
 ===================================  FAILURE ===================================
 
@@ -437,7 +437,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-8.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-8.pddl
 
 ===================================  FAILURE ===================================
 
@@ -499,7 +499,7 @@ stack the red block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-9.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-9.pddl
 
 ===================================  FAILURE ===================================
 
@@ -555,7 +555,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-10.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-10.pddl
 
 ===================================  FAILURE ===================================
 
@@ -620,7 +620,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-11.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-11.pddl
 
 ===================================  FAILURE ===================================
 
@@ -681,7 +681,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-12.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-12.pddl
 
 ===================================  FAILURE ===================================
 
@@ -735,7 +735,7 @@ stack the yellow block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-13.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-13.pddl
 
 ===================================  FAILURE ===================================
 
@@ -796,7 +796,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-14.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-14.pddl
 
 ===================================  FAILURE ===================================
 
@@ -863,7 +863,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-15.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-15.pddl
 
 ===================================  FAILURE ===================================
 
@@ -924,7 +924,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-16.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-16.pddl
 
 ===================================  FAILURE ===================================
 
@@ -980,7 +980,7 @@ unstack the orange block from on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-17.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-17.pddl
 
 ===================================  FAILURE ===================================
 
@@ -1041,7 +1041,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-18.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-18.pddl
 
 ===================================  FAILURE ===================================
 
@@ -1115,7 +1115,7 @@ stack the red block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-19.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-19.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -1181,7 +1181,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-20.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-20.pddl
 
 ===================================  FAILURE ===================================
 
@@ -1245,7 +1245,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-21.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-21.pddl
 
 ===================================  FAILURE ===================================
 
@@ -1295,7 +1295,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-22.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-22.pddl
 
 ===================================  FAILURE ===================================
 
@@ -1352,7 +1352,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-23.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-23.pddl
 
 ===================================  FAILURE ===================================
 
@@ -1410,7 +1410,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-24.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-24.pddl
 
 ===================================  FAILURE ===================================
 
@@ -1472,7 +1472,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-25.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-25.pddl
 
 ===================================  FAILURE ===================================
 
@@ -1526,7 +1526,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-26.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-26.pddl
 
 ===================================  FAILURE ===================================
 
@@ -1578,7 +1578,7 @@ unstack the orange block from on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-27.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-27.pddl
 
 ===================================  FAILURE ===================================
 
@@ -1641,7 +1641,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-28.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-28.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -1709,7 +1709,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-29.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-29.pddl
 
 ===================================  FAILURE ===================================
 
@@ -1771,7 +1771,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-30.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-30.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -1825,7 +1825,7 @@ unstack the blue block from on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-31.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-31.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -1873,7 +1873,7 @@ unstack the blue block from on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-32.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-32.pddl
 
 ===================================  FAILURE ===================================
 
@@ -1936,7 +1936,7 @@ stack the orange block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-33.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-33.pddl
 
 ===================================  FAILURE ===================================
 
@@ -1997,7 +1997,7 @@ stack the yellow block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-34.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-34.pddl
 
 ===================================  FAILURE ===================================
 
@@ -2046,7 +2046,7 @@ unstack the yellow block from on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-35.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-35.pddl
 
 ===================================  FAILURE ===================================
 
@@ -2107,7 +2107,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-36.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-36.pddl
 
 ===================================  FAILURE ===================================
 
@@ -2168,7 +2168,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-37.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-37.pddl
 
 ===================================  FAILURE ===================================
 
@@ -2226,7 +2226,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-38.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-38.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -2294,7 +2294,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-39.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-39.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -2360,7 +2360,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-40.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-40.pddl
 
 ===================================  FAILURE ===================================
 
@@ -2430,7 +2430,7 @@ stack the red block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-41.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-41.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -2478,7 +2478,7 @@ unstack the blue block from on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-42.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-42.pddl
 
 ===================================  FAILURE ===================================
 
@@ -2535,7 +2535,7 @@ unstack the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-43.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-43.pddl
 
 ===================================  FAILURE ===================================
 
@@ -2597,7 +2597,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-44.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-44.pddl
 
 ===================================  FAILURE ===================================
 
@@ -2667,7 +2667,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-45.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-45.pddl
 
 ===================================  FAILURE ===================================
 
@@ -2723,7 +2723,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-46.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-46.pddl
 
 ===================================  FAILURE ===================================
 
@@ -2773,7 +2773,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-47.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-47.pddl
 
 ===================================  FAILURE ===================================
 
@@ -2836,7 +2836,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-48.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-48.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -2892,7 +2892,7 @@ unstack the blue block from on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-49.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-49.pddl
 
 ===================================  FAILURE ===================================
 
@@ -2956,7 +2956,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-50.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-50.pddl
 
 ===================================  FAILURE ===================================
 
@@ -3018,7 +3018,7 @@ stack the red block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-51.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-51.pddl
 
 ===================================  FAILURE ===================================
 
@@ -3086,7 +3086,7 @@ stack the blue block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-52.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-52.pddl
 
 ===================================  FAILURE ===================================
 
@@ -3150,7 +3150,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-53.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-53.pddl
 
 ===================================  FAILURE ===================================
 
@@ -3212,7 +3212,7 @@ stack the red block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-54.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-54.pddl
 
 ===================================  FAILURE ===================================
 
@@ -3278,7 +3278,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-55.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-55.pddl
 
 ===================================  FAILURE ===================================
 
@@ -3354,7 +3354,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-56.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-56.pddl
 
 ===================================  FAILURE ===================================
 
@@ -3412,7 +3412,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-57.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-57.pddl
 
 ===================================  FAILURE ===================================
 
@@ -3485,7 +3485,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-58.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-58.pddl
 
 ===================================  FAILURE ===================================
 
@@ -3545,7 +3545,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-59.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-59.pddl
 
 ===================================  FAILURE ===================================
 
@@ -3602,7 +3602,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-60.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-60.pddl
 
 ===================================  FAILURE ===================================
 
@@ -3668,7 +3668,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-61.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-61.pddl
 
 ===================================  FAILURE ===================================
 
@@ -3724,7 +3724,7 @@ stack the orange block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-62.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-62.pddl
 
 ===================================  FAILURE ===================================
 
@@ -3795,7 +3795,7 @@ stack the red block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-63.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-63.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -3855,7 +3855,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-64.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-64.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -3909,7 +3909,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-65.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-65.pddl
 
 ===================================  FAILURE ===================================
 
@@ -3975,7 +3975,7 @@ stack the orange block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-66.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-66.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4039,7 +4039,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-67.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-67.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4106,7 +4106,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-68.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-68.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4168,7 +4168,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-69.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-69.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -4228,7 +4228,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-70.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-70.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4278,7 +4278,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-71.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-71.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4327,7 +4327,7 @@ unstack the yellow block from on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-72.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-72.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4384,7 +4384,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-73.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-73.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4444,7 +4444,7 @@ stack the blue block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-74.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-74.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4496,7 +4496,7 @@ unstack the blue block from on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-75.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-75.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4562,7 +4562,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-76.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-76.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4621,7 +4621,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-77.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-77.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4685,7 +4685,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-78.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-78.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4739,7 +4739,7 @@ unstack the yellow block from on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-79.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-79.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4789,7 +4789,7 @@ stack the blue block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-80.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-80.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -4859,7 +4859,7 @@ stack the orange block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-81.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-81.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4929,7 +4929,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-82.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-82.pddl
 
 ===================================  FAILURE ===================================
 
@@ -4989,7 +4989,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-83.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-83.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5063,7 +5063,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-84.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-84.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5133,7 +5133,7 @@ stack the orange block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-85.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-85.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5195,7 +5195,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-86.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-86.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5251,7 +5251,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-87.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-87.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5327,7 +5327,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-88.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-88.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5384,7 +5384,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-89.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-89.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5444,7 +5444,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-90.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-90.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5504,7 +5504,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-91.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-91.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5568,7 +5568,7 @@ stack the blue block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-92.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-92.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5624,7 +5624,7 @@ My plan is as follows:
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-93.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-93.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5683,7 +5683,7 @@ My plan is as follows:
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-94.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-94.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5742,7 +5742,7 @@ My plan is as follows:
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-95.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-95.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5797,7 +5797,7 @@ My plan is as follows:
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-96.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-96.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5854,7 +5854,7 @@ My plan is as follows:
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-97.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-97.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5907,7 +5907,7 @@ My plan is as follows:
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-98.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-98.pddl
 
 ===================================  FAILURE ===================================
 
@@ -5959,7 +5959,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-99.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-99.pddl
 
 ===================================  FAILURE ===================================
 
@@ -6023,7 +6023,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-100.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-100.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -6097,7 +6097,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-101.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-101.pddl
 
 ===================================  FAILURE ===================================
 
@@ -6163,7 +6163,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-102.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-102.pddl
 
 ===================================  FAILURE ===================================
 
@@ -6228,7 +6228,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-103.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-103.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -6290,7 +6290,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-104.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-104.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -6360,7 +6360,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-105.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-105.pddl
 
 ===================================  FAILURE ===================================
 
@@ -6420,7 +6420,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-106.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-106.pddl
 
 ===================================  FAILURE ===================================
 
@@ -6481,7 +6481,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-107.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-107.pddl
 
 ===================================  FAILURE ===================================
 
@@ -6547,7 +6547,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-108.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-108.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -6615,7 +6615,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-109.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-109.pddl
 
 ===================================  FAILURE ===================================
 
@@ -6681,7 +6681,7 @@ stack the yellow block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-110.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-110.pddl
 
 ===================================  FAILURE ===================================
 
@@ -6751,7 +6751,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-111.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-111.pddl
 
 ===================================  FAILURE ===================================
 
@@ -6829,7 +6829,7 @@ stack the yellow block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-112.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-112.pddl
 
 ===================================  FAILURE ===================================
 
@@ -6886,7 +6886,7 @@ stack the orange block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-113.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-113.pddl
 
 ===================================  FAILURE ===================================
 
@@ -6961,7 +6961,7 @@ stack the orange block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-114.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-114.pddl
 
 ===================================  FAILURE ===================================
 
@@ -7027,7 +7027,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-115.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-115.pddl
 
 ===================================  FAILURE ===================================
 
@@ -7086,7 +7086,7 @@ stack the red block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-116.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-116.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -7154,7 +7154,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-117.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-117.pddl
 
 ===================================  FAILURE ===================================
 
@@ -7218,7 +7218,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-118.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-118.pddl
 
 ===================================  FAILURE ===================================
 
@@ -7272,7 +7272,7 @@ unstack the blue block from on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-119.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-119.pddl
 
 ===================================  FAILURE ===================================
 
@@ -7344,7 +7344,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-120.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-120.pddl
 
 ===================================  FAILURE ===================================
 
@@ -7408,7 +7408,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-121.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-121.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -7466,7 +7466,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-122.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-122.pddl
 
 ===================================  FAILURE ===================================
 
@@ -7534,7 +7534,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-123.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-123.pddl
 
 ===================================  FAILURE ===================================
 
@@ -7587,7 +7587,7 @@ stack the red block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-124.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-124.pddl
 
 ===================================  FAILURE ===================================
 
@@ -7636,7 +7636,7 @@ unstack the orange block from on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-125.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-125.pddl
 
 ===================================  FAILURE ===================================
 
@@ -7698,7 +7698,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-126.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-126.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -7758,7 +7758,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-127.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-127.pddl
 
 ===================================  FAILURE ===================================
 
@@ -7823,7 +7823,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-128.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-128.pddl
 
 ===================================  FAILURE ===================================
 
@@ -7887,7 +7887,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-129.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-129.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -7953,7 +7953,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-130.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-130.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -8013,7 +8013,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-131.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-131.pddl
 
 ===================================  FAILURE ===================================
 
@@ -8077,7 +8077,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-132.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-132.pddl
 
 ===================================  FAILURE ===================================
 
@@ -8139,7 +8139,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-133.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-133.pddl
 
 ===================================  FAILURE ===================================
 
@@ -8195,7 +8195,7 @@ unstack the orange block from on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-134.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-134.pddl
 
 ===================================  FAILURE ===================================
 
@@ -8262,7 +8262,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-135.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-135.pddl
 
 ===================================  FAILURE ===================================
 
@@ -8320,7 +8320,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-136.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-136.pddl
 
 ===================================  FAILURE ===================================
 
@@ -8382,7 +8382,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-137.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-137.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -8444,7 +8444,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-138.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-138.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -8506,7 +8506,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-139.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-139.pddl
 
 ===================================  FAILURE ===================================
 
@@ -8562,7 +8562,7 @@ stack the orange block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-140.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-140.pddl
 
 ===================================  FAILURE ===================================
 
@@ -8622,7 +8622,7 @@ stack the orange block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-141.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-141.pddl
 
 ===================================  FAILURE ===================================
 
@@ -8680,7 +8680,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-142.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-142.pddl
 
 ===================================  FAILURE ===================================
 
@@ -8729,7 +8729,7 @@ unstack the red block from on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-143.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-143.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -8785,7 +8785,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-144.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-144.pddl
 
 ===================================  FAILURE ===================================
 
@@ -8850,7 +8850,7 @@ stack the orange block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-145.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-145.pddl
 
 ===================================  FAILURE ===================================
 
@@ -8918,7 +8918,7 @@ stack the orange block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-146.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-146.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -8982,7 +8982,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-147.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-147.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9044,7 +9044,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-148.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-148.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9112,7 +9112,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-149.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-149.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9162,7 +9162,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-150.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-150.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9224,7 +9224,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-151.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-151.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9288,7 +9288,7 @@ stack the orange block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-152.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-152.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9354,7 +9354,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-153.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-153.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9408,7 +9408,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-154.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-154.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9478,7 +9478,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-155.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-155.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9548,7 +9548,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-156.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-156.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9613,7 +9613,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-157.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-157.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9677,7 +9677,7 @@ stack the blue block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-158.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-158.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9729,7 +9729,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-159.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-159.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9788,7 +9788,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-160.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-160.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9862,7 +9862,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-161.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-161.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9911,7 +9911,7 @@ unstack the yellow block from on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-162.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-162.pddl
 
 ===================================  FAILURE ===================================
 
@@ -9965,7 +9965,7 @@ stack the orange block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-163.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-163.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10023,7 +10023,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-164.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-164.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10072,7 +10072,7 @@ unstack the orange block from on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-165.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-165.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10128,7 +10128,7 @@ unstack the orange block from on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-166.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-166.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10187,7 +10187,7 @@ unstack the orange block from on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-167.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-167.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10253,7 +10253,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-168.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-168.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10323,7 +10323,7 @@ stack the yellow block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-169.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-169.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10383,7 +10383,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-170.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-170.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10432,7 +10432,7 @@ unstack the yellow block from on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-171.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-171.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10496,7 +10496,7 @@ stack the orange block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-172.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-172.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10556,7 +10556,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-173.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-173.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10618,7 +10618,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-174.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-174.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10686,7 +10686,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-175.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-175.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10747,7 +10747,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-176.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-176.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10801,7 +10801,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-177.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-177.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10865,7 +10865,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-178.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-178.pddl
 
 ===================================  FAILURE ===================================
 
@@ -10931,7 +10931,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-179.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-179.pddl
 
 ===================================  FAILURE ===================================
 
@@ -11001,7 +11001,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-180.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-180.pddl
 
 ===================================  FAILURE ===================================
 
@@ -11061,7 +11061,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-181.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-181.pddl
 
 ===================================  FAILURE ===================================
 
@@ -11129,7 +11129,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-182.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-182.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -11199,7 +11199,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-183.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-183.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -11259,7 +11259,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-184.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-184.pddl
 
 ===================================  FAILURE ===================================
 
@@ -11315,7 +11315,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-185.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-185.pddl
 
 ===================================  FAILURE ===================================
 
@@ -11369,7 +11369,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-186.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-186.pddl
 
 ===================================  FAILURE ===================================
 
@@ -11429,7 +11429,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-187.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-187.pddl
 
 ===================================  FAILURE ===================================
 
@@ -11492,7 +11492,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-188.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-188.pddl
 
 ===================================  FAILURE ===================================
 
@@ -11550,7 +11550,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-189.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-189.pddl
 
 ===================================  FAILURE ===================================
 
@@ -11619,7 +11619,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-190.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-190.pddl
 
 ===================================  FAILURE ===================================
 
@@ -11681,7 +11681,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-191.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-191.pddl
 
 ===================================  FAILURE ===================================
 
@@ -11733,7 +11733,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-192.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-192.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -11781,7 +11781,7 @@ unstack the yellow block from on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-193.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-193.pddl
 
 ===================================  FAILURE ===================================
 
@@ -11843,7 +11843,7 @@ stack the orange block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-194.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-194.pddl
 
 ===================================  FAILURE ===================================
 
@@ -11904,7 +11904,7 @@ stack the yellow block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-195.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-195.pddl
 
 ===================================  FAILURE ===================================
 
@@ -11962,7 +11962,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-196.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-196.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -12028,7 +12028,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-197.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-197.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -12096,7 +12096,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-198.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-198.pddl
 
 ===================================  FAILURE ===================================
 
@@ -12151,7 +12151,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-199.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-199.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -12217,7 +12217,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-200.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-200.pddl
 
 ===================================  FAILURE ===================================
 
@@ -12295,7 +12295,7 @@ stack the red block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-201.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-201.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -12355,7 +12355,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-202.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-202.pddl
 
 ===================================  FAILURE ===================================
 
@@ -12409,7 +12409,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-203.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-203.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -12463,7 +12463,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-204.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-204.pddl
 
 ===================================  FAILURE ===================================
 
@@ -12529,7 +12529,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-205.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-205.pddl
 
 ===================================  FAILURE ===================================
 
@@ -12594,7 +12594,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-206.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-206.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -12650,7 +12650,7 @@ stack the blue block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-207.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-207.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -12720,7 +12720,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-208.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-208.pddl
 
 ===================================  FAILURE ===================================
 
@@ -12778,7 +12778,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-209.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-209.pddl
 
 ===================================  FAILURE ===================================
 
@@ -12840,7 +12840,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-210.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-210.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -12894,7 +12894,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-211.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-211.pddl
 
 ===================================  FAILURE ===================================
 
@@ -12958,7 +12958,7 @@ stack the yellow block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-212.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-212.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13020,7 +13020,7 @@ stack the red block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-213.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-213.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13085,7 +13085,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-214.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-214.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13151,7 +13151,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-215.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-215.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13216,7 +13216,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-216.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-216.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -13270,7 +13270,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-217.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-217.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13336,7 +13336,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-218.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-218.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13402,7 +13402,7 @@ stack the yellow block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-219.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-219.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13454,7 +13454,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-220.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-220.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13516,7 +13516,7 @@ stack the blue block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-221.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-221.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13578,7 +13578,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-222.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-222.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13646,7 +13646,7 @@ stack the yellow block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-223.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-223.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13696,7 +13696,7 @@ stack the red block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-224.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-224.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13745,7 +13745,7 @@ unstack the yellow block from on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-225.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-225.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13797,7 +13797,7 @@ unstack the orange block from on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-226.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-226.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13865,7 +13865,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-227.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-227.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13933,7 +13933,7 @@ stack the red block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-228.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-228.pddl
 
 ===================================  FAILURE ===================================
 
@@ -13988,7 +13988,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-229.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-229.pddl
 
 ===================================  FAILURE ===================================
 
@@ -14047,7 +14047,7 @@ stack the yellow block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-230.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-230.pddl
 
 ===================================  FAILURE ===================================
 
@@ -14126,7 +14126,7 @@ stack the orange block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-231.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-231.pddl
 
 ===================================  FAILURE ===================================
 
@@ -14190,7 +14190,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-232.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-232.pddl
 
 ===================================  FAILURE ===================================
 
@@ -14252,7 +14252,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-233.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-233.pddl
 
 ===================================  FAILURE ===================================
 
@@ -14301,7 +14301,7 @@ unstack the orange block from on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-234.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-234.pddl
 
 ===================================  FAILURE ===================================
 
@@ -14359,7 +14359,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-235.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-235.pddl
 
 ===================================  FAILURE ===================================
 
@@ -14424,7 +14424,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-236.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-236.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -14478,7 +14478,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-237.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-237.pddl
 
 ===================================  FAILURE ===================================
 
@@ -14541,7 +14541,7 @@ stack the red block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-238.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-238.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -14607,7 +14607,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-239.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-239.pddl
 
 ===================================  FAILURE ===================================
 
@@ -14676,7 +14676,7 @@ stack the orange block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-240.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-240.pddl
 
 ===================================  FAILURE ===================================
 
@@ -14732,7 +14732,7 @@ stack the yellow block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-241.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-241.pddl
 
 ===================================  FAILURE ===================================
 
@@ -14786,7 +14786,7 @@ unstack the red block from on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-242.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-242.pddl
 
 ===================================  FAILURE ===================================
 
@@ -14847,7 +14847,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-243.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-243.pddl
 
 ===================================  FAILURE ===================================
 
@@ -14911,7 +14911,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-244.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-244.pddl
 
 ===================================  FAILURE ===================================
 
@@ -14979,7 +14979,7 @@ stack the orange block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-245.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-245.pddl
 
 ===================================  FAILURE ===================================
 
@@ -15043,7 +15043,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-246.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-246.pddl
 
 ===================================  FAILURE ===================================
 
@@ -15110,7 +15110,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-247.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-247.pddl
 
 ===================================  FAILURE ===================================
 
@@ -15175,7 +15175,7 @@ stack the orange block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-248.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-248.pddl
 
 ===================================  FAILURE ===================================
 
@@ -15229,7 +15229,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-249.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-249.pddl
 
 ===================================  FAILURE ===================================
 
@@ -15290,7 +15290,7 @@ stack the red block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-250.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-250.pddl
 
 ===================================  FAILURE ===================================
 
@@ -15362,7 +15362,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-251.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-251.pddl
 
 ===================================  FAILURE ===================================
 
@@ -15427,7 +15427,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-252.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-252.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -15475,7 +15475,7 @@ unstack the orange block from on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-253.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-253.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -15533,7 +15533,7 @@ stack the orange block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-254.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-254.pddl
 
 ===================================  FAILURE ===================================
 
@@ -15589,7 +15589,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-255.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-255.pddl
 
 ===================================  FAILURE ===================================
 
@@ -15652,7 +15652,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-256.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-256.pddl
 
 ===================================  FAILURE ===================================
 
@@ -15714,7 +15714,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-257.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-257.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -15784,7 +15784,7 @@ stack the orange block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-258.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-258.pddl
 
 ===================================  FAILURE ===================================
 
@@ -15846,7 +15846,7 @@ stack the orange block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-259.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-259.pddl
 
 ===================================  FAILURE ===================================
 
@@ -15902,7 +15902,7 @@ stack the yellow block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-260.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-260.pddl
 
 ===================================  FAILURE ===================================
 
@@ -15961,7 +15961,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-261.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-261.pddl
 
 ===================================  FAILURE ===================================
 
@@ -16018,7 +16018,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-262.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-262.pddl
 
 ===================================  FAILURE ===================================
 
@@ -16079,7 +16079,7 @@ stack the blue block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-263.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-263.pddl
 
 ===================================  FAILURE ===================================
 
@@ -16157,7 +16157,7 @@ stack the orange block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-264.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-264.pddl
 
 ===================================  FAILURE ===================================
 
@@ -16216,7 +16216,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-265.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-265.pddl
 
 ===================================  FAILURE ===================================
 
@@ -16270,7 +16270,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-266.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-266.pddl
 
 ===================================  FAILURE ===================================
 
@@ -16332,7 +16332,7 @@ stack the yellow block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-267.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-267.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -16402,7 +16402,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-268.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-268.pddl
 
 ===================================  FAILURE ===================================
 
@@ -16464,7 +16464,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-269.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-269.pddl
 
 ===================================  FAILURE ===================================
 
@@ -16525,7 +16525,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-270.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-270.pddl
 
 ===================================  FAILURE ===================================
 
@@ -16583,7 +16583,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-271.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-271.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -16645,7 +16645,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-272.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-272.pddl
 
 ===================================  FAILURE ===================================
 
@@ -16705,7 +16705,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-273.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-273.pddl
 
 ===================================  FAILURE ===================================
 
@@ -16756,7 +16756,7 @@ unstack the orange block from on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-274.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-274.pddl
 
 ===================================  FAILURE ===================================
 
@@ -16811,7 +16811,7 @@ stack the blue block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-275.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-275.pddl
 
 ===================================  FAILURE ===================================
 
@@ -16875,7 +16875,7 @@ stack the red block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-276.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-276.pddl
 
 ===================================  FAILURE ===================================
 
@@ -16935,7 +16935,7 @@ stack the red block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-277.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-277.pddl
 
 ===================================  FAILURE ===================================
 
@@ -17001,7 +17001,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-278.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-278.pddl
 
 ===================================  FAILURE ===================================
 
@@ -17061,7 +17061,7 @@ stack the blue block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-279.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-279.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -17131,7 +17131,7 @@ stack the yellow block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-280.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-280.pddl
 
 ===================================  FAILURE ===================================
 
@@ -17198,7 +17198,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-281.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-281.pddl
 
 ===================================  FAILURE ===================================
 
@@ -17260,7 +17260,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-282.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-282.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -17330,7 +17330,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-283.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-283.pddl
 
 ===================================  FAILURE ===================================
 
@@ -17402,7 +17402,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-284.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-284.pddl
 
 ===================================  FAILURE ===================================
 
@@ -17458,7 +17458,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-285.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-285.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -17522,7 +17522,7 @@ stack the yellow block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-286.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-286.pddl
 
 ===================================  FAILURE ===================================
 
@@ -17583,7 +17583,7 @@ unstack the yellow block from on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-287.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-287.pddl
 
 ===================================  FAILURE ===================================
 
@@ -17649,7 +17649,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-288.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-288.pddl
 
 ===================================  FAILURE ===================================
 
@@ -17713,7 +17713,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-289.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-289.pddl
 
 ===================================  FAILURE ===================================
 
@@ -17777,7 +17777,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-290.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-290.pddl
 
 ===================================  FAILURE ===================================
 
@@ -17833,7 +17833,7 @@ unstack the red block from on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-291.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-291.pddl
 
 ===================================  FAILURE ===================================
 
@@ -17896,7 +17896,7 @@ stack the red block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-292.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-292.pddl
 
 ===================================  FAILURE ===================================
 
@@ -17954,7 +17954,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-293.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-293.pddl
 
 ===================================  FAILURE ===================================
 
@@ -18016,7 +18016,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-294.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-294.pddl
 
 ===================================  FAILURE ===================================
 
@@ -18081,7 +18081,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-295.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-295.pddl
 
 ===================================  FAILURE ===================================
 
@@ -18137,7 +18137,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-296.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-296.pddl
 
 ===================================  FAILURE ===================================
 
@@ -18197,7 +18197,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-297.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-297.pddl
 
 ===================================  FAILURE ===================================
 
@@ -18252,7 +18252,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-298.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-298.pddl
 
 ===================================  FAILURE ===================================
 
@@ -18312,7 +18312,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-299.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-299.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -18384,7 +18384,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-300.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-300.pddl
 
 ===================================  FAILURE ===================================
 
@@ -18446,7 +18446,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-301.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-301.pddl
 
 ===================================  FAILURE ===================================
 
@@ -18498,7 +18498,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-302.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-302.pddl
 
 ===================================  FAILURE ===================================
 
@@ -18564,7 +18564,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-303.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-303.pddl
 
 ===================================  FAILURE ===================================
 
@@ -18618,7 +18618,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-304.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-304.pddl
 
 ===================================  FAILURE ===================================
 
@@ -18683,7 +18683,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-305.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-305.pddl
 
 ===================================  FAILURE ===================================
 
@@ -18749,7 +18749,7 @@ stack the yellow block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-306.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-306.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -18809,7 +18809,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-307.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-307.pddl
 
 ===================================  FAILURE ===================================
 
@@ -18873,7 +18873,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-308.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-308.pddl
 
 ===================================  FAILURE ===================================
 
@@ -18935,7 +18935,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-309.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-309.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19008,7 +19008,7 @@ stack the red block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-310.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-310.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19070,7 +19070,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-311.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-311.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19132,7 +19132,7 @@ stack the red block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-312.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-312.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19182,7 +19182,7 @@ stack the yellow block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-313.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-313.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19239,7 +19239,7 @@ stack the orange block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-314.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-314.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19311,7 +19311,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-315.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-315.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -19371,7 +19371,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-316.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-316.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19437,7 +19437,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-317.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-317.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19499,7 +19499,7 @@ stack the blue block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-318.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-318.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19564,7 +19564,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-319.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-319.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19630,7 +19630,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-320.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-320.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19702,7 +19702,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-321.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-321.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19755,7 +19755,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-322.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-322.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19819,7 +19819,7 @@ stack the red block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-323.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-323.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19891,7 +19891,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-324.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-324.pddl
 
 ===================================  FAILURE ===================================
 
@@ -19946,7 +19946,7 @@ stack the orange block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-325.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-325.pddl
 
 ===================================  FAILURE ===================================
 
@@ -20010,7 +20010,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-326.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-326.pddl
 
 ===================================  FAILURE ===================================
 
@@ -20074,7 +20074,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-327.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-327.pddl
 
 ===================================  FAILURE ===================================
 
@@ -20136,7 +20136,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-328.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-328.pddl
 
 ===================================  FAILURE ===================================
 
@@ -20194,7 +20194,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-329.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-329.pddl
 
 ===================================  FAILURE ===================================
 
@@ -20265,7 +20265,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-330.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-330.pddl
 
 ===================================  FAILURE ===================================
 
@@ -20330,7 +20330,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-331.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-331.pddl
 
 ===================================  FAILURE ===================================
 
@@ -20392,7 +20392,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-332.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-332.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -20462,7 +20462,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-333.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-333.pddl
 
 ===================================  FAILURE ===================================
 
@@ -20521,7 +20521,7 @@ unstack the yellow block from on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-334.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-334.pddl
 
 ===================================  FAILURE ===================================
 
@@ -20575,7 +20575,7 @@ stack the blue block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-335.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-335.pddl
 
 ===================================  FAILURE ===================================
 
@@ -20629,7 +20629,7 @@ stack the yellow block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-336.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-336.pddl
 
 ===================================  FAILURE ===================================
 
@@ -20683,7 +20683,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-337.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-337.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -20747,7 +20747,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-338.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-338.pddl
 
 ===================================  FAILURE ===================================
 
@@ -20809,7 +20809,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-339.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-339.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -20879,7 +20879,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-340.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-340.pddl
 
 ===================================  FAILURE ===================================
 
@@ -20935,7 +20935,7 @@ unstack the orange block from on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-341.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-341.pddl
 
 ===================================  FAILURE ===================================
 
@@ -20998,7 +20998,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-342.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-342.pddl
 
 ===================================  FAILURE ===================================
 
@@ -21064,7 +21064,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-343.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-343.pddl
 
 ===================================  FAILURE ===================================
 
@@ -21135,7 +21135,7 @@ unstack the yellow block from on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-344.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-344.pddl
 
 ===================================  FAILURE ===================================
 
@@ -21191,7 +21191,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-345.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-345.pddl
 
 ===================================  FAILURE ===================================
 
@@ -21255,7 +21255,7 @@ stack the red block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-346.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-346.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -21309,7 +21309,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-347.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-347.pddl
 
 ===================================  FAILURE ===================================
 
@@ -21371,7 +21371,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-348.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-348.pddl
 
 ===================================  FAILURE ===================================
 
@@ -21428,7 +21428,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-349.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-349.pddl
 
 ===================================  FAILURE ===================================
 
@@ -21494,7 +21494,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-350.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-350.pddl
 
 ===================================  FAILURE ===================================
 
@@ -21551,7 +21551,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-351.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-351.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -21619,7 +21619,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-352.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-352.pddl
 
 ===================================  FAILURE ===================================
 
@@ -21683,7 +21683,7 @@ stack the orange block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-353.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-353.pddl
 
 ===================================  FAILURE ===================================
 
@@ -21744,7 +21744,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-354.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-354.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -21814,7 +21814,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-355.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-355.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -21876,7 +21876,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-356.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-356.pddl
 
 ===================================  FAILURE ===================================
 
@@ -21936,7 +21936,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-357.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-357.pddl
 
 ===================================  FAILURE ===================================
 
@@ -21994,7 +21994,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-358.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-358.pddl
 
 ===================================  FAILURE ===================================
 
@@ -22066,7 +22066,7 @@ stack the blue block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-359.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-359.pddl
 
 ===================================  FAILURE ===================================
 
@@ -22130,7 +22130,7 @@ stack the red block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-360.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-360.pddl
 
 ===================================  FAILURE ===================================
 
@@ -22194,7 +22194,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-361.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-361.pddl
 
 ===================================  FAILURE ===================================
 
@@ -22266,7 +22266,7 @@ stack the red block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-362.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-362.pddl
 
 ===================================  FAILURE ===================================
 
@@ -22317,7 +22317,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-363.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-363.pddl
 
 ===================================  FAILURE ===================================
 
@@ -22384,7 +22384,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-364.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-364.pddl
 
 ===================================  FAILURE ===================================
 
@@ -22442,7 +22442,7 @@ stack the red block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-365.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-365.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -22500,7 +22500,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-366.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-366.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -22558,7 +22558,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-367.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-367.pddl
 
 ===================================  FAILURE ===================================
 
@@ -22619,7 +22619,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-368.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-368.pddl
 
 ===================================  FAILURE ===================================
 
@@ -22677,7 +22677,7 @@ stack the blue block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-369.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-369.pddl
 
 ===================================  FAILURE ===================================
 
@@ -22742,7 +22742,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-370.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-370.pddl
 
 ===================================  FAILURE ===================================
 
@@ -22802,7 +22802,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-371.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-371.pddl
 
 ===================================  FAILURE ===================================
 
@@ -22867,7 +22867,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-372.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-372.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -22925,7 +22925,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-373.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-373.pddl
 
 ===================================  FAILURE ===================================
 
@@ -22984,7 +22984,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-374.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-374.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23048,7 +23048,7 @@ stack the red block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-375.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-375.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23117,7 +23117,7 @@ stack the red block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-376.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-376.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23175,7 +23175,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-377.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-377.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23234,7 +23234,7 @@ stack the blue block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-378.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-378.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -23282,7 +23282,7 @@ unstack the red block from on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-379.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-379.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23353,7 +23353,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-380.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-380.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23415,7 +23415,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-381.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-381.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23482,7 +23482,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-382.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-382.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23541,7 +23541,7 @@ unstack the orange block from on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-383.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-383.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23602,7 +23602,7 @@ stack the orange block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-384.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-384.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23658,7 +23658,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-385.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-385.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23716,7 +23716,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-386.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-386.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23787,7 +23787,7 @@ unstack the blue block from on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-387.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-387.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23845,7 +23845,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-388.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-388.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23899,7 +23899,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-389.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-389.pddl
 
 ===================================  FAILURE ===================================
 
@@ -23963,7 +23963,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-390.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-390.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24023,7 +24023,7 @@ stack the orange block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-391.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-391.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24083,7 +24083,7 @@ stack the yellow block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-392.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-392.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24141,7 +24141,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-393.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-393.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24215,7 +24215,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-394.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-394.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24275,7 +24275,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-395.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-395.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24332,7 +24332,7 @@ unstack the blue block from on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-396.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-396.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24381,7 +24381,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-397.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-397.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24437,7 +24437,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-398.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-398.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24505,7 +24505,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-399.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-399.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24577,7 +24577,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-400.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-400.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24644,7 +24644,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-401.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-401.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24696,7 +24696,7 @@ unstack the orange block from on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-402.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-402.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24760,7 +24760,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-403.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-403.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24820,7 +24820,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-404.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-404.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24872,7 +24872,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-405.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-405.pddl
 
 ===================================  FAILURE ===================================
 
@@ -24934,7 +24934,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-406.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-406.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25000,7 +25000,7 @@ stack the yellow block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-407.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-407.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25052,7 +25052,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-408.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-408.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25121,7 +25121,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-409.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-409.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25175,7 +25175,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-410.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-410.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25229,7 +25229,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-411.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-411.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25289,7 +25289,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-412.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-412.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25361,7 +25361,7 @@ stack the blue block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-413.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-413.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25420,7 +25420,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-414.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-414.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25486,7 +25486,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-415.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-415.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25553,7 +25553,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-416.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-416.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25623,7 +25623,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-417.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-417.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25687,7 +25687,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-418.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-418.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25759,7 +25759,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-419.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-419.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25824,7 +25824,7 @@ stack the yellow block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-420.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-420.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25892,7 +25892,7 @@ stack the yellow block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-421.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-421.pddl
 
 ===================================  FAILURE ===================================
 
@@ -25954,7 +25954,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-422.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-422.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -26014,7 +26014,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-423.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-423.pddl
 
 ===================================  FAILURE ===================================
 
@@ -26072,7 +26072,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-424.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-424.pddl
 
 ===================================  FAILURE ===================================
 
@@ -26138,7 +26138,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-425.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-425.pddl
 
 ===================================  FAILURE ===================================
 
@@ -26193,7 +26193,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-426.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-426.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -26241,7 +26241,7 @@ unstack the orange block from on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-427.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-427.pddl
 
 ===================================  FAILURE ===================================
 
@@ -26317,7 +26317,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-428.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-428.pddl
 
 ===================================  FAILURE ===================================
 
@@ -26366,7 +26366,7 @@ unstack the yellow block from on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-429.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-429.pddl
 
 ===================================  FAILURE ===================================
 
@@ -26442,7 +26442,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-430.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-430.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -26490,7 +26490,7 @@ unstack the orange block from on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-431.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-431.pddl
 
 ===================================  FAILURE ===================================
 
@@ -26550,7 +26550,7 @@ stack the red block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-432.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-432.pddl
 
 ===================================  FAILURE ===================================
 
@@ -26609,7 +26609,7 @@ stack the orange block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-433.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-433.pddl
 
 ===================================  FAILURE ===================================
 
@@ -26663,7 +26663,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-434.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-434.pddl
 
 ===================================  FAILURE ===================================
 
@@ -26721,7 +26721,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-435.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-435.pddl
 
 ===================================  FAILURE ===================================
 
@@ -26781,7 +26781,7 @@ stack the orange block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-436.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-436.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -26835,7 +26835,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-437.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-437.pddl
 
 ===================================  FAILURE ===================================
 
@@ -26901,7 +26901,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-438.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-438.pddl
 
 ===================================  FAILURE ===================================
 
@@ -26964,7 +26964,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-439.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-439.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -27028,7 +27028,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-440.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-440.pddl
 
 ===================================  FAILURE ===================================
 
@@ -27086,7 +27086,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-441.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-441.pddl
 
 ===================================  FAILURE ===================================
 
@@ -27148,7 +27148,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-442.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-442.pddl
 
 ===================================  FAILURE ===================================
 
@@ -27213,7 +27213,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-443.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-443.pddl
 
 ===================================  FAILURE ===================================
 
@@ -27274,7 +27274,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-444.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-444.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -27332,7 +27332,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-445.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-445.pddl
 
 ===================================  FAILURE ===================================
 
@@ -27389,7 +27389,7 @@ stack the blue block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-446.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-446.pddl
 
 ===================================  FAILURE ===================================
 
@@ -27468,7 +27468,7 @@ put down the white block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-447.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-447.pddl
 
 ===================================  FAILURE ===================================
 
@@ -27528,7 +27528,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-448.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-448.pddl
 
 ===================================  FAILURE ===================================
 
@@ -27590,7 +27590,7 @@ stack the yellow block on top of the white block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-449.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-449.pddl
 
 ===================================  FAILURE ===================================
 
@@ -27652,7 +27652,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-450.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-450.pddl
 
 ===================================  FAILURE ===================================
 
@@ -27722,7 +27722,7 @@ stack the white block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-451.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-451.pddl
 
 ===================================  FAILURE ===================================
 
@@ -27779,7 +27779,7 @@ unstack the yellow block from on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-452.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-452.pddl
 
 ===================================  FAILURE ===================================
 
@@ -27857,7 +27857,7 @@ stack the red block on top of the white block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-453.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-453.pddl
 
 ===================================  FAILURE ===================================
 
@@ -27917,7 +27917,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-454.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-454.pddl
 
 ===================================  FAILURE ===================================
 
@@ -27989,7 +27989,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-455.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-455.pddl
 
 ===================================  FAILURE ===================================
 
@@ -28059,7 +28059,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-456.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-456.pddl
 
 ===================================  FAILURE ===================================
 
@@ -28119,7 +28119,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-457.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-457.pddl
 
 ===================================  FAILURE ===================================
 
@@ -28179,7 +28179,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-458.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-458.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -28241,7 +28241,7 @@ unstack the orange block from on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-459.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-459.pddl
 
 ===================================  FAILURE ===================================
 
@@ -28309,7 +28309,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-460.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-460.pddl
 
 ===================================  FAILURE ===================================
 
@@ -28378,7 +28378,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-461.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-461.pddl
 
 ===================================  FAILURE ===================================
 
@@ -28436,7 +28436,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-462.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-462.pddl
 
 ===================================  FAILURE ===================================
 
@@ -28496,7 +28496,7 @@ put down the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-463.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-463.pddl
 
 ===================================  FAILURE ===================================
 
@@ -28559,7 +28559,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-464.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-464.pddl
 
 ===================================  FAILURE ===================================
 
@@ -28634,7 +28634,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-465.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-465.pddl
 
 ===================================  FAILURE ===================================
 
@@ -28697,7 +28697,7 @@ stack the yellow block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-466.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-466.pddl
 
 ===================================  FAILURE ===================================
 
@@ -28765,7 +28765,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-467.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-467.pddl
 
 ===================================  FAILURE ===================================
 
@@ -28826,7 +28826,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-468.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-468.pddl
 
 ===================================  FAILURE ===================================
 
@@ -28890,7 +28890,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-469.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-469.pddl
 
 ===================================  FAILURE ===================================
 
@@ -28962,7 +28962,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-470.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-470.pddl
 
 ===================================  FAILURE ===================================
 
@@ -29028,7 +29028,7 @@ stack the blue block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-471.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-471.pddl
 
 ===================================  FAILURE ===================================
 
@@ -29082,7 +29082,7 @@ stack the orange block on top of the white block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-472.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-472.pddl
 
 ===================================  FAILURE ===================================
 
@@ -29141,7 +29141,7 @@ pick up the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-473.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-473.pddl
 
 ===================================  FAILURE ===================================
 
@@ -29201,7 +29201,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-474.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-474.pddl
 
 ===================================  FAILURE ===================================
 
@@ -29259,7 +29259,7 @@ unstack the blue block from on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-475.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-475.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -29325,7 +29325,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-476.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-476.pddl
 
 ===================================  FAILURE ===================================
 
@@ -29396,7 +29396,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-477.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-477.pddl
 
 ===================================  FAILURE ===================================
 
@@ -29446,7 +29446,7 @@ pick up the white block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-478.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-478.pddl
 
 ===================================  FAILURE ===================================
 
@@ -29516,7 +29516,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-479.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-479.pddl
 
 ===================================  FAILURE ===================================
 
@@ -29568,7 +29568,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-480.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-480.pddl
 
 ===================================  FAILURE ===================================
 
@@ -29628,7 +29628,7 @@ stack the white block on top of the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-481.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-481.pddl
 
 ===================================  FAILURE ===================================
 
@@ -29702,7 +29702,7 @@ pick up the white block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-482.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-482.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -29774,7 +29774,7 @@ pick up the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-483.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-483.pddl
 
 ===================================  FAILURE ===================================
 
@@ -29831,7 +29831,7 @@ stack the yellow block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-484.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-484.pddl
 
 ===================================  FAILURE ===================================
 
@@ -29901,7 +29901,7 @@ stack the red block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-485.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-485.pddl
 
 ===================================  FAILURE ===================================
 
@@ -29967,7 +29967,7 @@ pick up the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-486.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-486.pddl
 
 ===================================  FAILURE ===================================
 
@@ -30033,7 +30033,7 @@ stack the blue block on top of the white block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-487.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-487.pddl
 
 ===================================  FAILURE ===================================
 
@@ -30090,7 +30090,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-488.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-488.pddl
 
 ===================================  FAILURE ===================================
 
@@ -30156,7 +30156,7 @@ stack the white block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-489.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-489.pddl
 
 ===================================  FAILURE ===================================
 
@@ -30218,7 +30218,7 @@ put down the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-490.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-490.pddl
 
 ===================================  FAILURE ===================================
 
@@ -30282,7 +30282,7 @@ put down the white block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-491.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-491.pddl
 
 ===================================  FAILURE ===================================
 
@@ -30348,7 +30348,7 @@ put down the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-492.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-492.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -30421,7 +30421,7 @@ pick up the white block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-493.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-493.pddl
 
 ===================================  FAILURE ===================================
 
@@ -30483,7 +30483,7 @@ put down the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-494.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-494.pddl
 
 ===================================  SUCCESS ===================================
 
@@ -30537,7 +30537,7 @@ pick up the white block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-495.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-495.pddl
 
 ===================================  FAILURE ===================================
 
@@ -30587,7 +30587,7 @@ stack the red block on top of the yellow block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-496.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-496.pddl
 
 ===================================  FAILURE ===================================
 
@@ -30658,7 +30658,7 @@ stack the blue block on top of the orange block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-497.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-497.pddl
 
 ===================================  FAILURE ===================================
 
@@ -30728,7 +30728,7 @@ stack the blue block on top of the white block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-498.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-498.pddl
 
 ===================================  FAILURE ===================================
 
@@ -30795,7 +30795,7 @@ stack the orange block on top of the blue block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-499.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-499.pddl
 
 ===================================  FAILURE ===================================
 
@@ -30851,7 +30851,7 @@ pick up the red block
 
 =============================================================================
 
- Instance ./instances/generated_basic/instance-500.pddl
+ Instance ./plan-bench/instances/generated_basic/instance-500.pddl
 
 ===================================  FAILURE ===================================
 

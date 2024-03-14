@@ -24,7 +24,7 @@ export TOKENIZERS_PARALLELISM=true
 
 BASE_SCRIPT="plan-bench/llm_plan_pipeline.py"
 
-srun -N1 -n1 python3 $BASE_SCRIPT --task t1 --config blocksworld_3 --engine mamba
+srun -N1 -n1 python3 $BASE_SCRIPT --task t1 --config blocksworld_3 --engine mamba --verbose True
 
 wait
 

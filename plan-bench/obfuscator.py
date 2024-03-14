@@ -316,12 +316,12 @@ def _create_instances(config_original, config_obfuscated, action_mapping, predic
     else:
         original_instance_dir = config_original["instance_dir"]
         obfuscated_instance_dir = config_obfuscated["instance_dir"]
-    original_instance_template = f'./instances/{original_instance_dir}/{config_original["instances_template"]}'
-    original_domain_file = f'./instances/{config_original["domain_file"]}'
+    original_instance_template = f'./plan-bench/instances/{original_instance_dir}/{config_original["instances_template"]}'
+    original_domain_file = f'./plan-bench/instances/{config_original["domain_file"]}'
 
-    os.makedirs(f'./instances/{obfuscated_instance_dir}', exist_ok=True)
-    obfuscated_instance_template = f'./instances/{obfuscated_instance_dir}/{config_obfuscated["instances_template"]}'
-    obfuscated_domain_file = f'./instances/{config_obfuscated["domain_file"]}'
+    os.makedirs(f'./plan-bench/instances/{obfuscated_instance_dir}', exist_ok=True)
+    obfuscated_instance_template = f'./plan-bench/instances/{obfuscated_instance_dir}/{config_obfuscated["instances_template"]}'
+    obfuscated_domain_file = f'./plan-bench/instances/{config_obfuscated["domain_file"]}'
 
     for i in tqdm(range(1, n_instances+2)):
         original_instance = original_instance_template.format(i)

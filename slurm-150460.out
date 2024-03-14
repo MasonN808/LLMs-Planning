@@ -1,0 +1,16 @@
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+100%|██████████| 100/100 [00:00<00:00, 1018034.95it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+100%|██████████| 100/100 [00:00<00:00, 1542023.53it/s]
+Traceback (most recent call last):
+  File "plan-bench/llm_plan_pipeline.py", line 101, in <module>
+    response_evaluator = ResponseEvaluator(config_file, engine, specified_instances, verbose, ignore_existing)
+  File "/nas/ucb/mason/LLMs-Planning/plan-bench/response_./plan-bench/instances/y", line 26, in __init__
+    self._set_task_params()
+  File "/nas/ucb/mason/LLMs-Planning/plan-bench/response_evaluation.py", line 37, in _set_task_params
+    self.n_files = min(self.data['n_instances'], len(os.listdir(self.instance_folder)))
+FileNotFoundError: [Errno 2] No such file or directory: './instances/blocksworld/generated_basic_3/'
+srun: error: airl.ist.berkeley.edu: task 0: Exited with exit code 1

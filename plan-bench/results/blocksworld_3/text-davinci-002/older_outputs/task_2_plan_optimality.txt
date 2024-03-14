@@ -1,7 +1,7 @@
 
- Instance ./instances/generated_basic_3/instance-1.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-1.pddl
 
- Instance ./instances/generated_basic_3/instance-2.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-2.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -67,9 +67,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-2.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-2.pddl
 
- Instance ./instances/generated_basic_3/instance-3.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-3.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -137,9 +137,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-3.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-3.pddl
 
- Instance ./instances/generated_basic_3/instance-4.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-4.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -205,9 +205,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-4.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-4.pddl
 
- Instance ./instances/generated_basic_3/instance-5.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-5.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -275,9 +275,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-5.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-5.pddl
 
- Instance ./instances/generated_basic_3/instance-6.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-6.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -353,9 +353,9 @@ The total time to execute the plan is 8 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-6.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-6.pddl
 
- Instance ./instances/generated_basic_3/instance-7.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-7.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -424,9 +424,9 @@ The total time to execute the plan is 5 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-7.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-7.pddl
 
- Instance ./instances/generated_basic_3/instance-8.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-8.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -484,9 +484,9 @@ The total time to execute the plan is 2 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-8.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-8.pddl
 
- Instance ./instances/generated_basic_3/instance-9.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-9.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -542,9 +542,9 @@ The total time to execute the plan is 2 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-9.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-9.pddl
 
- Instance ./instances/generated_basic_3/instance-10.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-10.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -612,9 +612,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-10.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-10.pddl
 
- Instance ./instances/generated_basic_3/instance-11.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-11.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -686,9 +686,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-11.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-11.pddl
 
- Instance ./instances/generated_basic_3/instance-12.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-12.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -760,9 +760,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-12.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-12.pddl
 
- Instance ./instances/generated_basic_3/instance-13.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-13.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -832,9 +832,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-13.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-13.pddl
 
- Instance ./instances/generated_basic_3/instance-14.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-14.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -904,9 +904,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-14.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-14.pddl
 
- Instance ./instances/generated_basic_3/instance-15.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-15.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -970,9 +970,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-15.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-15.pddl
 
- Instance ./instances/generated_basic_3/instance-16.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-16.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -1042,9 +1042,9 @@ The total time to execute the plan is 5 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-16.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-16.pddl
 
- Instance ./instances/generated_basic_3/instance-17.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-17.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -1110,9 +1110,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-17.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-17.pddl
 
- Instance ./instances/generated_basic_3/instance-18.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-18.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -1178,9 +1178,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-18.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-18.pddl
 
- Instance ./instances/generated_basic_3/instance-19.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-19.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -1250,9 +1250,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-19.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-19.pddl
 
- Instance ./instances/generated_basic_3/instance-20.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-20.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -1310,9 +1310,9 @@ The total time to execute the plan is 3 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-20.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-20.pddl
 
- Instance ./instances/generated_basic_3/instance-21.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-21.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -1374,9 +1374,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-21.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-21.pddl
 
- Instance ./instances/generated_basic_3/instance-22.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-22.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -1442,9 +1442,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-22.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-22.pddl
 
- Instance ./instances/generated_basic_3/instance-23.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-23.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -1514,9 +1514,9 @@ The total time to execute the plan is 5 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-23.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-23.pddl
 
- Instance ./instances/generated_basic_3/instance-24.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-24.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -1580,9 +1580,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-24.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-24.pddl
 
- Instance ./instances/generated_basic_3/instance-25.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-25.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -1646,9 +1646,9 @@ The total time to execute the plan is 3 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-25.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-25.pddl
 
- Instance ./instances/generated_basic_3/instance-26.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-26.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -1714,9 +1714,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-26.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-26.pddl
 
- Instance ./instances/generated_basic_3/instance-27.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-27.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -1788,9 +1788,9 @@ The total time to execute the plan is 8 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-27.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-27.pddl
 
- Instance ./instances/generated_basic_3/instance-28.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-28.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -1862,9 +1862,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-28.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-28.pddl
 
- Instance ./instances/generated_basic_3/instance-29.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-29.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -1936,9 +1936,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-29.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-29.pddl
 
- Instance ./instances/generated_basic_3/instance-30.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-30.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2002,9 +2002,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-30.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-30.pddl
 
- Instance ./instances/generated_basic_3/instance-31.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-31.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2066,9 +2066,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-31.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-31.pddl
 
- Instance ./instances/generated_basic_3/instance-32.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-32.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2134,9 +2134,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-32.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-32.pddl
 
- Instance ./instances/generated_basic_3/instance-33.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-33.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2192,9 +2192,9 @@ The total time to execute the plan is 2 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-33.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-33.pddl
 
- Instance ./instances/generated_basic_3/instance-34.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-34.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2250,9 +2250,9 @@ The total time to execute the plan is 2 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-34.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-34.pddl
 
- Instance ./instances/generated_basic_3/instance-35.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-35.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2322,9 +2322,9 @@ The total time to execute the plan is 5 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-35.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-35.pddl
 
- Instance ./instances/generated_basic_3/instance-36.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-36.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2388,9 +2388,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-36.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-36.pddl
 
- Instance ./instances/generated_basic_3/instance-37.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-37.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2452,9 +2452,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-37.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-37.pddl
 
- Instance ./instances/generated_basic_3/instance-38.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-38.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2520,9 +2520,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-38.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-38.pddl
 
- Instance ./instances/generated_basic_3/instance-39.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-39.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2598,9 +2598,9 @@ The total time to execute the plan is 8 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-39.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-39.pddl
 
- Instance ./instances/generated_basic_3/instance-40.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-40.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2672,9 +2672,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-40.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-40.pddl
 
- Instance ./instances/generated_basic_3/instance-41.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-41.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2740,9 +2740,9 @@ The total time to execute the plan is 5 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-41.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-41.pddl
 
- Instance ./instances/generated_basic_3/instance-42.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-42.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2800,9 +2800,9 @@ The total time to execute the plan is 3 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-42.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-42.pddl
 
- Instance ./instances/generated_basic_3/instance-43.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-43.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2866,9 +2866,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-43.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-43.pddl
 
- Instance ./instances/generated_basic_3/instance-44.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-44.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -2938,9 +2938,9 @@ The total time to execute the plan is 5 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-44.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-44.pddl
 
- Instance ./instances/generated_basic_3/instance-45.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-45.pddl
 =================================== FAILURE ===================================
 ----------------Sub-optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3002,9 +3002,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-45.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-45.pddl
 
- Instance ./instances/generated_basic_3/instance-46.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-46.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3064,9 +3064,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-46.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-46.pddl
 
- Instance ./instances/generated_basic_3/instance-47.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-47.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3122,9 +3122,9 @@ The total time to execute the plan is 2 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-47.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-47.pddl
 
- Instance ./instances/generated_basic_3/instance-48.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-48.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3180,9 +3180,9 @@ The total time to execute the plan is 3 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-48.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-48.pddl
 
- Instance ./instances/generated_basic_3/instance-49.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-49.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3244,9 +3244,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-49.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-49.pddl
 
- Instance ./instances/generated_basic_3/instance-50.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-50.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3316,9 +3316,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-50.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-50.pddl
 
- Instance ./instances/generated_basic_3/instance-51.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-51.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3392,9 +3392,9 @@ The total time to execute the plan is 8 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-51.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-51.pddl
 
- Instance ./instances/generated_basic_3/instance-52.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-52.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3458,9 +3458,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-52.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-52.pddl
 
- Instance ./instances/generated_basic_3/instance-53.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-53.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3522,9 +3522,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-53.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-53.pddl
 
- Instance ./instances/generated_basic_3/instance-54.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-54.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3592,9 +3592,9 @@ The total time to execute the plan is 5 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-54.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-54.pddl
 
- Instance ./instances/generated_basic_3/instance-55.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-55.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3658,9 +3658,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-55.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-55.pddl
 
- Instance ./instances/generated_basic_3/instance-56.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-56.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3722,9 +3722,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-56.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-56.pddl
 
- Instance ./instances/generated_basic_3/instance-57.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-57.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3794,9 +3794,9 @@ The total time to execute the plan is 5 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-57.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-57.pddl
 
- Instance ./instances/generated_basic_3/instance-58.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-58.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3862,9 +3862,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-58.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-58.pddl
 
- Instance ./instances/generated_basic_3/instance-59.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-59.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3928,9 +3928,9 @@ The total time to execute the plan is 3 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-59.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-59.pddl
 
- Instance ./instances/generated_basic_3/instance-60.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-60.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -3998,9 +3998,9 @@ The total time to execute the plan is 5 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-60.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-60.pddl
 
- Instance ./instances/generated_basic_3/instance-61.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-61.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -4064,9 +4064,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-61.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-61.pddl
 
- Instance ./instances/generated_basic_3/instance-62.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-62.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -4136,9 +4136,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-62.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-62.pddl
 
- Instance ./instances/generated_basic_3/instance-63.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-63.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -4208,9 +4208,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-63.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-63.pddl
 
- Instance ./instances/generated_basic_3/instance-64.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-64.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -4280,9 +4280,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-64.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-64.pddl
 
- Instance ./instances/generated_basic_3/instance-65.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-65.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -4352,9 +4352,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-65.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-65.pddl
 
- Instance ./instances/generated_basic_3/instance-66.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-66.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -4426,9 +4426,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-66.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-66.pddl
 
- Instance ./instances/generated_basic_3/instance-67.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-67.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -4494,9 +4494,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-67.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-67.pddl
 
- Instance ./instances/generated_basic_3/instance-68.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-68.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -4562,9 +4562,9 @@ The total time to execute the plan is 5 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-68.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-68.pddl
 
- Instance ./instances/generated_basic_3/instance-69.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-69.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -4634,9 +4634,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-69.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-69.pddl
 
- Instance ./instances/generated_basic_3/instance-70.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-70.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -4700,9 +4700,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-70.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-70.pddl
 
- Instance ./instances/generated_basic_3/instance-71.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-71.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -4764,9 +4764,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-71.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-71.pddl
 
- Instance ./instances/generated_basic_3/instance-72.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-72.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -4834,9 +4834,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-72.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-72.pddl
 
- Instance ./instances/generated_basic_3/instance-73.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-73.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -4902,9 +4902,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-73.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-73.pddl
 
- Instance ./instances/generated_basic_3/instance-74.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-74.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -4960,9 +4960,9 @@ The total time to execute the plan is 2 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-74.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-74.pddl
 
- Instance ./instances/generated_basic_3/instance-75.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-75.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5030,9 +5030,9 @@ The total time to execute the plan is 5 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-75.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-75.pddl
 
- Instance ./instances/generated_basic_3/instance-76.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-76.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5098,9 +5098,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-76.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-76.pddl
 
- Instance ./instances/generated_basic_3/instance-77.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-77.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5158,9 +5158,9 @@ The total time to execute the plan is 2 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-77.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-77.pddl
 
- Instance ./instances/generated_basic_3/instance-78.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-78.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5220,9 +5220,9 @@ The total time to execute the plan is 3 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-78.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-78.pddl
 
- Instance ./instances/generated_basic_3/instance-79.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-79.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5292,9 +5292,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-79.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-79.pddl
 
- Instance ./instances/generated_basic_3/instance-80.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-80.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5358,9 +5358,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-80.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-80.pddl
 
- Instance ./instances/generated_basic_3/instance-81.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-81.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5428,9 +5428,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-81.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-81.pddl
 
- Instance ./instances/generated_basic_3/instance-82.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-82.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5506,9 +5506,9 @@ The total time to execute the plan is 8 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-82.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-82.pddl
 
- Instance ./instances/generated_basic_3/instance-83.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-83.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5572,9 +5572,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-83.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-83.pddl
 
- Instance ./instances/generated_basic_3/instance-84.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-84.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5630,9 +5630,9 @@ The total time to execute the plan is 2 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-84.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-84.pddl
 
- Instance ./instances/generated_basic_3/instance-85.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-85.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5694,9 +5694,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-85.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-85.pddl
 
- Instance ./instances/generated_basic_3/instance-86.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-86.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5756,9 +5756,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-86.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-86.pddl
 
- Instance ./instances/generated_basic_3/instance-87.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-87.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5818,9 +5818,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-87.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-87.pddl
 
- Instance ./instances/generated_basic_3/instance-88.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-88.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5884,9 +5884,9 @@ The total time to execute the plan is 3 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-88.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-88.pddl
 
- Instance ./instances/generated_basic_3/instance-89.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-89.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -5944,9 +5944,9 @@ The total time to execute the plan is 2 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-89.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-89.pddl
 
- Instance ./instances/generated_basic_3/instance-90.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-90.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -6006,9 +6006,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-90.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-90.pddl
 
- Instance ./instances/generated_basic_3/instance-91.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-91.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -6068,9 +6068,9 @@ The total time to execute the plan is 3 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-91.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-91.pddl
 
- Instance ./instances/generated_basic_3/instance-92.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-92.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -6130,9 +6130,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-92.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-92.pddl
 
- Instance ./instances/generated_basic_3/instance-93.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-93.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -6186,9 +6186,9 @@ The total time to execute the plan is 2 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-93.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-93.pddl
 
- Instance ./instances/generated_basic_3/instance-94.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-94.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -6248,9 +6248,9 @@ The total time to execute the plan is 3 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-94.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-94.pddl
 
- Instance ./instances/generated_basic_3/instance-95.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-95.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -6322,9 +6322,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-95.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-95.pddl
 
- Instance ./instances/generated_basic_3/instance-96.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-96.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -6388,9 +6388,9 @@ The total time to execute the plan is 4 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-96.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-96.pddl
 
- Instance ./instances/generated_basic_3/instance-97.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-97.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -6448,9 +6448,9 @@ The total time to execute the plan is 2 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-97.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-97.pddl
 
- Instance ./instances/generated_basic_3/instance-98.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-98.pddl
 =================================== SUCCESS ===================================
 ----------------Optimal Plan----------------
 ---------CORRECT COST OUTPUT BY LLM---------I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -6520,9 +6520,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-98.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-98.pddl
 
- Instance ./instances/generated_basic_3/instance-99.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-99.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -6594,9 +6594,9 @@ The total time to execute the plan is 5 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-99.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-99.pddl
 
- Instance ./instances/generated_basic_3/instance-100.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-100.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:
@@ -6664,9 +6664,9 @@ The total time to execute the plan is 6 minutes.
 
 =============================================================================
 
- Instance ./instances/generated_basic_3/instance-100.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-100.pddl
 
- Instance ./instances/generated_basic_3/instance-101.pddl
+ Instance ./plan-bench/instances/generated_basic_3/instance-101.pddl
 =================================== FAILURE ===================================
 --------Invalid Plan-------
 I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do:

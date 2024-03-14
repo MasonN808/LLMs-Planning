@@ -13,8 +13,8 @@ class Instance_Generator():
     def __init__(self, config_file):
         self.data = None
         self.read_config(config_file)
-        self.instances_template = f"./instances/{self.data['domain_name']}/{self.data['instance_dir']}/{self.data['instances_template']}"
-        self.label_json = f"./instances/{self.data['domain_name']}/{self.data['domain_name']}_all_labels.json"
+        self.instances_template = f"./plan-bench/instances/{self.data['domain_name']}/{self.data['instance_dir']}/{self.data['instances_template']}"
+        self.label_json = f"./plan-bench/instances/{self.data['domain_name']}/{self.data['domain_name']}_all_labels.json"
         self.hashset = set()
         self.plan_hashset = set()
         if os.path.exists(self.label_json):
@@ -23,7 +23,7 @@ class Instance_Generator():
         else:
             self.all_labels = {}
         
-        os.makedirs(f"./instances/{self.data['domain_name']}/{self.data['instance_dir']}/", exist_ok=True)
+        os.makedirs(f"./plan-bench/instances/{self.data['domain_name']}/{self.data['instance_dir']}/", exist_ok=True)
 
 
     def read_config(self, config_file):
@@ -65,8 +65,8 @@ class Instance_Generator():
 
         length = len(self.hashset)
         try:
-            for i in os.listdir(f"./instances/{self.data['domain']}/"):
-                f = open(f"./instances/{self.data['domain']}/{i}", "r")
+            for i in os.listdir(f"./plan-bench/instances/{self.data['domain']}/"):
+                f = open(f"./plan-bench/instances/{self.data['domain']}/{i}", "r")
                 pddl = f.read()
                 to_add = self.convert_pddl(pddl)
                 if to_add in self.hashset:
@@ -295,19 +295,19 @@ class GeneralizationInstanceGenerator:
     def __init__(self, config_file):
         random.seed(10)
         self.data = self.read_config(config_file)
-        self.instances_template_t5 = f"./instances/{self.data['generalized_instance_dir']}/{self.data['instances_template']}"
+        self.instances_template_t5 = f"./plan-bench/instances/{self.data['generalized_instance_dir']}/{self.data['instances_template']}"
         
         self.hashset = set()
         self.instances = []
-        os.makedirs(f"./instances/{self.data['generalized_instance_dir']}/", exist_ok=True)
+        os.makedirs(f"./plan-bench/instances/{self.data['generalized_instance_dir']}/", exist_ok=True)
     
     def read_config(self, config_file):
         with open(config_file, 'r') as file:
             return yaml.safe_load(file)
 
     def add_existing_files_to_hash_set(self, instance_dir=None):
-        for i in os.listdir(f"./instances/{instance_dir}/"):
-            f = open(f"./instances/{instance_dir}/" + i, "r")
+        for i in os.listdir(f"./plan-bench/instances/{instance_dir}/"):
+            f = open(f"./plan-bench/instances/{instance_dir}/" + i, "r")
             pddl = f.read()
             self.hashset.add(hashlib.md5(pddl.encode('utf-8')).hexdigest())
         return len(self.hashset)

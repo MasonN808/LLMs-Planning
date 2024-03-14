@@ -1,0 +1,52 @@
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+100%|██████████| 100/100 [00:00<00:00, 1095118.54it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+  0%|          | 0/100 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+ 85%|████████▌ | 85/100 [00:11<00:01,  7.62it/s]
+ 86%|████████▌ | 86/100 [00:19<00:03,  3.84it/s]
+ 87%|████████▋ | 87/100 [00:27<00:05,  2.29it/s]
+ 88%|████████▊ | 88/100 [00:34<00:08,  1.48it/s]
+ 89%|████████▉ | 89/100 [00:42<00:10,  1.01it/s]./plan-bench/instances/
+ 90%|█████████ | 90/100 [00:50<00:14,  1.40s/it]
+ 91%|█████████ | 91/100 [00:58<00:17,  1.90s/it]
+ 92%|█████████▏| 92/100 [01:06<00:19,  2.50s/it]
+ 93%|█████████▎| 93/100 [01:14<00:22,  3.18s/it]
+ 94%|█████████▍| 94/100 [01:22<00:23,  3.90s/it]
+ 95%|█████████▌| 95/100 [01:30<00:23,  4.61s/it]
+ 96%|█████████▌| 96/100 [01:38<00:21,  5.28s/it]
+ 97%|█████████▋| 97/100 [01:46<00:17,  5.87s/it]
+ 98%|█████████▊| 98/100 [01:54<00:12,  6.36s/it]
+ 99%|█████████▉| 99/100 [02:02<00:06,  6.77s/it]
+100%|██████████| 100/100 [02:10<00:00,  7.13s/it]
+100%|██████████| 100/100 [02:10<00:00,  1.30s/it]
+Traceback (most recent call last):
+  File "plan-bench/llm_plan_pipeline.py", line 101, in <module>
+    response_evaluator = ResponseEvaluator(config_file, engine, specified_instances, verbose, ignore_existing)
+  File "/nas/ucb/mason/LLMs-Planning/plan-bench/response_evaluation.py", line 26, in __init__
+    self._set_task_params()
+  File "/nas/ucb/mason/LLMs-Planning/plan-bench/response_evaluation.py", line 37, in _set_task_params
+    self.n_files = min(self.data['n_instances'], len(os.listdir(self.instance_folder)))
+FileNotFoundError: [Errno 2] No such file or directory: './instances/blocksworld/generated_basic_3/'
+srun: error: airl.ist.berkeley.edu: task 0: Exited with exit code 1
