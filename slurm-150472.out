@@ -1,307 +1,0 @@
-  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 1178175.28it/s]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Instance 2 already completed
-Instance 3 already completed
-Instance 4 already completed
-Instance 5 already completed
-Instance 6 already completed
-Instance 7 already completed
-Instance 8 already completed
-Instance 9 already completed
-Instance 10 already completed
-Instance 11 already completed
-Instance 12 already completed
-Instance 13 already completed
-Instance 14 already completed
-Instance 15 already completed
-Instance 16 already completed
-Instance 17 already completed
-Instance 18 already completed
-Instance 19 already completed
-Instance 20 already completed
-Instance 21 already completed
-Instance 22 already completed
-Instance 23 already completed
-Instance 24 already completed
-Instance 25 already completed
-Instance 26 already completed
-Instance 27 already completed
-Instance 28 already completed
-Instance 29 already completed
-Instance 30 already completed
-Instance 31 already completed
-Instance 32 already completed
-Instance 33 already completed
-Instance 34 already completed
-Instance 35 already completed
-Instance 36 already completed
-Instance 37 already completed
-Instance 38 already completed
-Instance 39 already completed
-Instance 40 already completed
-Instance 41 already completed
-Instance 42 already completed
-Instance 43 already completed
-Instance 44 already completed
-Instance 45 already completed
-Instance 46 already completed
-Instance 47 already completed
-Instance 48 already completed
-Instance 49 already completed
-Instance 50 already completed
-Instance 51 already completed
-Instance 52 already completed
-Instance 53 already completed
-Instance 54 already completed
-Instance 55 already completed
-Instance 56 already completed
-Instance 57 already completed
-Instance 58 already completed
-Instance 59 already completed
-Instance 60 already completed
-Instance 61 already completed
-Instance 62 already completed
-Instance 63 already completed
-Instance 64 already completed
-Instance 65 already completed
-Instance 66 already completed
-Instance 67 already completed
-Instance 68 already completed
-Instance 69 already completed
-Instance 70 already completed
-Instance 71 already completed
-Instance 72 already completed
-Instance 73 already completed
-Instance 74 already completed
-Instance 75 already completed
-Instance 76 already completed
-Instance 77 already completed
-Instance 78 already completed
-Instance 79 already completed
-Instance 80 already completed
-Instance 81 already completed
-Instance 82 already completed
-Instance 83 already completed
-Instance 84 already completed
-Instance 85 already completed
-Instance 86 already completed
-Instance 87 already completed
-Instance 88 already completed
-Instance 89 already completed
-Instance 90 already completed
-Instance 91 already completed
-Instance 92 already completed
-Instance 93 already completed
-Instance 94 already completed
-Instance 95 already completed
-Instance 96 already completed
-Instance 97 already completed
-Instance 98 already completed
-Instance 99 already completed
-Instance 100 already completed
-Instance 101 already completed
-  0%|          | 0/100 [00:00<?, ?it/s]100%|██████████| 100/100 [00:00<00:00, 890510.40it/s]
-  0%|          | 0/100 [00:00<?, ?it/s]  1%|          | 1/100 [00:00<00:20,  4.89it/s]  2%|▏         | 2/100 [00:00<00:18,  5.37it/s]  3%|▎         | 3/100 [00:00<00:17,  5.50it/s]  4%|▍         | 4/100 [00:00<00:17,  5.57it/s]  5%|▌         | 5/100 [00:00<00:16,  5.64it/s]  6%|▌         | 6/100 [00:01<00:16,  5.65it/s]  7%|▋         | 7/100 [00:01<00:16,  5.58it/s]  8%|▊         | 8/100 [00:01<00:16,  5.57it/s]  9%|▉         | 9/100 [00:01<00:16,  5.59it/s] 10%|█         | 10/100 [00:01<00:15,  5.64it/s] 11%|█         | 11/100 [00:01<00:15,  5.67it/s] 12%|█▏        | 12/100 [00:02<00:15,  5.68it/s] 13%|█▎        | 13/100 [00:02<00:15,  5.65it/s] 14%|█▍        | 14/100 [00:02<00:15,  5.66it/s] 15%|█▌        | 15/100 [00:02<00:14,  5.69it/s] 16%|█▌        | 16/100 [00:02<00:14,  5.71it/s] 17%|█▋        | 17/100 [00:03<00:14,  5.74it/s] 18%|█▊        | 18/100 [00:03<00:14,  5.73it/s] 19%|█▉        | 19/100 [00:03<00:14,  5.76it/s] 20%|██        | 20/100 [00:03<00:13,  5.73it/s] 21%|██        | 21/100 [00:03<00:13,  5.71it/s] 22%|██▏       | 22/100 [00:03<00:13,  5.72it/s] 23%|██▎       | 23/100 [00:04<00:13,  5.72it/s] 24%|██▍       | 24/100 [00:04<00:13,  5.70it/s] 25%|██▌       | 25/100 [00:04<00:13,  5.70it/s] 26%|██▌       | 26/100 [00:04<00:13,  5.63it/s] 27%|██▋       | 27/100 [00:04<00:12,  5.62it/s] 28%|██▊       | 28/100 [00:04<00:12,  5.62it/s] 29%|██▉       | 29/100 [00:05<00:12,  5.65it/s] 30%|███       | 30/100 [00:05<00:12,  5.62it/s] 31%|███       | 31/100 [00:05<00:12,  5.64it/s] 32%|███▏      | 32/100 [00:05<00:12,  5.63it/s] 33%|███▎      | 33/100 [00:05<00:11,  5.67it/s] 34%|███▍      | 34/100 [00:06<00:11,  5.63it/s] 35%|███▌      | 35/100 [00:06<00:11,  5.66it/s] 36%|███▌      | 36/100 [00:06<00:11,  5.65it/s] 37%|███▋      | 37/100 [00:06<00:11,  5.67it/s] 38%|███▊      | 38/100 [00:06<00:10,  5.66it/s] 39%|███▉      | 39/100 [00:06<00:10,  5.70it/s] 40%|████      | 40/100 [00:07<00:10,  5.66it/s] 41%|████      | 41/100 [00:07<00:10,  5.68it/s] 42%|████▏     | 42/100 [00:07<00:10,  5.70it/s] 43%|████▎     | 43/100 [00:07<00:10,  5.67it/s] 44%|████▍     | 44/100 [00:07<00:09,  5.65it/s] 45%|████▌     | 45/100 [00:07<00:09,  5.67it/s] 46%|████▌     | 46/100 [00:08<00:11,  4.67it/s] 47%|████▋     | 47/100 [00:08<00:10,  4.94it/s] 48%|████▊     | 48/100 [00:08<00:10,  5.14it/s] 49%|████▉     | 49/100 [00:08<00:09,  5.27it/s] 50%|█████     | 50/100 [00:08<00:09,  5.40it/s] 51%|█████     | 51/100 [00:09<00:08,  5.45it/s] 52%|█████▏    | 52/100 [00:09<00:08,  5.50it/s] 53%|█████▎    | 53/100 [00:09<00:08,  5.51it/s] 54%|█████▍    | 54/100 [00:09<00:08,  5.54it/s] 55%|█████▌    | 55/100 [00:09<00:08,  5.59it/s] 56%|█████▌    | 56/100 [00:10<00:07,  5.63it/s] 57%|█████▋    | 57/100 [00:10<00:07,  5.64it/s] 58%|█████▊    | 58/100 [00:10<00:07,  5.65it/s] 59%|█████▉    | 59/100 [00:10<00:07,  5.64it/s] 60%|██████    | 60/100 [00:10<00:07,  5.66it/s] 61%|██████    | 61/100 [00:10<00:06,  5.65it/s] 62%|██████▏   | 62/100 [00:11<00:06,  5.68it/s] 63%|██████▎   | 63/100 [00:11<00:06,  5.69it/s] 64%|██████▍   | 64/100 [00:11<00:06,  5.67it/s] 65%|██████▌   | 65/100 [00:11<00:06,  5.67it/s] 66%|██████▌   | 66/100 [00:11<00:06,  5.65it/s] 67%|██████▋   | 67/100 [00:11<00:05,  5.67it/s] 68%|██████▊   | 68/100 [00:12<00:05,  5.64it/s] 69%|██████▉   | 69/100 [00:12<00:05,  5.67it/s] 70%|███████   | 70/100 [00:12<00:05,  5.68it/s] 71%|███████   | 71/100 [00:12<00:05,  5.69it/s] 72%|███████▏  | 72/100 [00:12<00:04,  5.71it/s] 73%|███████▎  | 73/100 [00:13<00:04,  5.64it/s] 74%|███████▍  | 74/100 [00:13<00:04,  5.63it/s] 75%|███████▌  | 75/100 [00:13<00:04,  5.66it/s] 76%|███████▌  | 76/100 [00:13<00:04,  5.69it/s] 77%|███████▋  | 77/100 [00:13<00:04,  5.70it/s] 78%|███████▊  | 78/100 [00:13<00:03,  5.71it/s] 79%|███████▉  | 79/100 [00:14<00:03,  5.68it/s] 80%|████████  | 80/100 [00:14<00:03,  5.70it/s] 81%|████████  | 81/100 [00:14<00:03,  5.64it/s] 82%|████████▏ | 82/100 [00:14<00:03,  5.66it/s] 83%|████████▎ | 83/100 [00:14<00:02,  5.68it/s] 84%|████████▍ | 84/100 [00:14<00:02,  5.71it/s] 85%|████████▌ | 85/100 [00:15<00:02,  5.66it/s] 86%|████████▌ | 86/100 [00:15<00:02,  5.63it/s] 87%|████████▋ | 87/100 [00:15<00:02,  5.63it/s] 88%|████████▊ | 88/100 [00:15<00:02,  5.65it/s] 89%|████████▉ | 89/100 [00:15<00:01,  5.64it/s] 90%|█████████ | 90/100 [00:16<00:01,  5.66it/s] 91%|█████████ | 91/100 [00:16<00:01,  5.64it/s] 92%|█████████▏| 92/100 [00:16<00:01,  5.65it/s] 93%|█████████▎| 93/100 [00:16<00:01,  5.62it/s] 94%|█████████▍| 94/100 [00:16<00:01,  5.65it/s] 95%|█████████▌| 95/100 [00:16<00:00,  5.60it/s] 96%|█████████▌| 96/100 [00:17<00:00,  5.65it/s] 97%|█████████▋| 97/100 [00:17<00:00,  5.65it/s] 98%|█████████▊| 98/100 [00:17<00:00,  5.67it/s] 99%|█████████▉| 99/100 [00:17<00:00,  5.67it/s]100%|██████████| 100/100 [00:17<00:00,  5.68it/s]100%|██████████| 100/100 [00:17<00:00,  5.62it/s]
-Evaluting instance 2
-Correct: False
-Evaluting instance 3
-Correct: False
-Evaluting instance 4
-Correct: False
-Evaluting instance 5
-Correct: False
-Evaluting instance 6
-Correct: False
-Evaluting instance 7
-Correct: False
-Evaluting instance 8
-Correct: False
-Evaluting instance 9
-Correct: False
-Evaluting instance 10
-Correct: False
-Evaluting instance 11
-Correct: False
-Evaluting instance 12
-Correct: False
-Evaluting instance 13
-Correct: False
-Evaluting instance 14
-Correct: False
-Evaluting instance 15
-Correct: False
-Evaluting instance 16
-Correct: False
-Evaluting instance 17
-Correct: False
-Evaluting instance 18
-Correct: False
-Evaluting instance 19
-Correct: False
-Evaluting instance 20
-Correct: False
-Evaluting instance 21
-Correct: False
-Evaluting instance 22
-Correct: False
-Evaluting instance 23
-Correct: False
-Evaluting instance 24
-Correct: False
-Evaluting instance 25
-Correct: False
-Evaluting instance 26
-Correct: False
-Evaluting instance 27
-Correct: False
-Evaluting instance 28
-Correct: False
-Evaluting instance 29
-Correct: False
-Evaluting instance 30
-Correct: False
-Evaluting instance 31
-Correct: False
-Evaluting instance 32
-Correct: False
-Evaluting instance 33
-Correct: False
-Evaluting instance 34
-Correct: False
-Evaluting instance 35
-Correct: False
-Evaluting instance 36
-Correct: False
-Evaluting instance 37
-Correct: False
-Evaluting instance 38
-Correct: False
-Evaluting instance 39
-Correct: False
-Evaluting instance 40
-Correct: False
-Evaluting instance 41
-Correct: False
-Evaluting instance 42
-Correct: False
-Evaluting instance 43
-Correct: False
-Evaluting instance 44
-Correct: False
-Evaluting instance 45
-Correct: False
-Evaluting instance 46
-Correct: False
-Evaluting instance 47
-Correct: False
-Evaluting instance 48
-Correct: False
-Evaluting instance 49
-Correct: False
-Evaluting instance 50
-Correct: False
-Evaluting instance 51
-Correct: False
-Evaluting instance 52
-Correct: False
-Evaluting instance 53
-Correct: False
-Evaluting instance 54
-Correct: False
-Evaluting instance 55
-Correct: False
-Evaluting instance 56
-Correct: False
-Evaluting instance 57
-Correct: False
-Evaluting instance 58
-Correct: False
-Evaluting instance 59
-Correct: False
-Evaluting instance 60
-Correct: False
-Evaluting instance 61
-Correct: False
-Evaluting instance 62
-Correct: False
-Evaluting instance 63
-Correct: False
-Evaluting instance 64
-Correct: False
-Evaluting instance 65
-Correct: False
-Evaluting instance 66
-Correct: False
-Evaluting instance 67
-Correct: False
-Evaluting instance 68
-Correct: False
-Evaluting instance 69
-Correct: False
-Evaluting instance 70
-Correct: False
-Evaluting instance 71
-Correct: False
-Evaluting instance 72
-Correct: False
-Evaluting instance 73
-Correct: False
-Evaluting instance 74
-Correct: False
-Evaluting instance 75
-Correct: False
-Evaluting instance 76
-Correct: False
-Evaluting instance 77
-Correct: False
-Evaluting instance 78
-Correct: False
-Evaluting instance 79
-Correct: False
-Evaluting instance 80
-Correct: False
-Evaluting instance 81
-Correct: False
-Evaluting instance 82
-Correct: False
-Evaluting instance 83
-Correct: False
-Evaluting instance 84
-Correct: False
-Evaluting instance 85
-Correct: False
-Evaluting instance 86
-Correct: False
-Evaluting instance 87
-Correct: False
-Evaluting instance 88
-Correct: False
-Evaluting instance 89
-Correct: False
-Evaluting instance 90
-Correct: False
-Evaluting instance 91
-Correct: False
-Evaluting instance 92
-Correct: False
-Evaluting instance 93
-Correct: False
-Evaluting instance 94
-Correct: False
-Evaluting instance 95
-Correct: False
-Evaluting instance 96
-Correct: False
-Evaluting instance 97
-Correct: False
-Evaluting instance 98
-Correct: False
-Evaluting instance 99
-Correct: False
-Evaluting instance 100
-Correct: False
-Evaluting instance 101
-Correct: False
-Total correct: 0
-Total instances: 100
-Accuracy: 0.0

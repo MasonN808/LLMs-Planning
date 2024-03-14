@@ -1,11 +1,0 @@
-  0%|          | 0/500 [00:00<?, ?it/s]  0%|          | 0/500 [00:00<?, ?it/s]
-Instance ./plan-bench/instances/blocksworld/generated_basic/instance-1.pddl
-Traceback (most recent call last):
-  File "plan-bench/llm_plan_pipeline.py", line 60, in <module>
-    prompt_generator.task_1_plan_generation(specified_instances, random_example)
-  File "/nas/ucb/mason/LLMs-Planning/plan-bench/prompt_generation.py", line 143, in task_1_plan_generation
-    gt_plan_text = get_plan_as_text(self.data)
-  File "/nas/ucb/mason/LLMs-Planning/plan-bench/utils/pddl_to_text.py", line 135, in get_plan_as_text
-    with open(plan_file) as f:
-FileNotFoundError: [Errno 2] No such file or directory: 'sas_plan'
-srun: error: airl.ist.berkeley.edu: task 0: Exited with exit code 1
