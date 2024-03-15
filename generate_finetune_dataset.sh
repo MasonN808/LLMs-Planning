@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # SLURM settings for the job submission
-#SBATCH --job-name=t1-llama-3b           # Name of the job
-#SBATCH --gres=gpu:1             # Request one GPU
-#SBATCH --mem=30G                # Memory allocated
+#SBATCH --job-name=data-gen           # Name of the job
+#SBATCH --cpus-per-task=2             # Request one GPU
+#SBATCH --mem=3G                # Memory allocated
 #SBATCH --nodes=1                 # Number of nodes
 #SBATCH --ntasks=1                # Number of tasks
 #SBATCH --time=2-00:00:00           # Maximum run time of the job (set to 3 days)
@@ -24,9 +24,9 @@ export TOKENIZERS_PARALLELISM=true
 
 export HF_HOME=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
 
-BASE_SCRIPT="plan-bench/llm_plan_pipeline.py"
+BASE_SCRIPT="finetune_dataset/combine.py"
 
-srun -N1 -n1 python3 $BASE_SCRIPT --task t1 --config blocksworld --engine llama-3b --verbose True
+srun -N1 -n1 python3 $BASE_SCRIPT
 
 wait
 
