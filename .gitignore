@@ -12,7 +12,7 @@ utils/__pycache__/*
 
 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
 cmake-image.tar
-.pyc
+*/*.pyc
 
 .venv
 env/
