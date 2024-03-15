@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # SLURM settings for the job submission
-#SBATCH --job-name=mamba-0           # Name of the job
+#SBATCH --job-name=llama-8b           # Name of the job
 #SBATCH --gres=gpu:1             # Request one GPU
-#SBATCH --mem=8G                # Memory allocated
+#SBATCH --mem=30G                # Memory allocated
 #SBATCH --nodes=1                 # Number of nodes
 #SBATCH --ntasks=1                # Number of tasks
 #SBATCH --time=2-00:00:00           # Maximum run time of the job (set to 3 days)
@@ -22,9 +22,11 @@ export VAL='/nas/ucb/mason/LLMs-Planning/planner_tools/VAL'
 
 export TOKENIZERS_PARALLELISM=true
 
+export HF_HOME=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
+
 BASE_SCRIPT="plan-bench/llm_plan_pipeline.py"
 
-srun -N1 -n1 python3 $BASE_SCRIPT --task t1 --config blocksworld_3 --engine mamba --verbose True
+srun -N1 -n1 python3 $BASE_SCRIPT --task t1 --config blocksworld --engine llama --verbose True
 
 wait
 
