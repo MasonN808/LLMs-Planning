@@ -97,9 +97,13 @@ class PromptGenerator:
         completed_instances =  []
         
         if structured_output is None:
+            if self.n_examples == 0:
+                prompt_type = "zeroshot"
+            elif self.n_examples == 1:
+                prompt_type = "oneshot"
             structured_output = {
                                 "task": task_name,
-                                "prompt_type": "oneshot",
+                                "prompt_type": prompt_type,
                                 "domain": self.data['domain_name'],
                                 "instances": instance_structured_outputs,
                                 }
@@ -164,9 +168,13 @@ class PromptGenerator:
         structured_output = self.load_json(task_name)
         
         if structured_output is None:
+            if self.n_examples == 0:
+                prompt_type = "zeroshot"
+            elif self.n_examples == 1:
+                prompt_type = "oneshot"
             structured_output = {
                                 "task": task_name,
-                                "prompt_type": "oneshot",
+                                "prompt_type": prompt_type,
                                 "domain": self.data['domain_name'],
                                 "instances": instance_structured_outputs,
                                 }
@@ -230,9 +238,13 @@ class PromptGenerator:
         instance_structured_outputs = []
         structured_output = self.load_json(task_name)
         if structured_output is None:
+            if self.n_examples == 0:
+                prompt_type = "zeroshot"
+            elif self.n_examples == 1:
+                prompt_type = "oneshot"
             structured_output = {
                                 "task": task_name,
-                                "prompt_type": "oneshot",
+                                "prompt_type": prompt_type,
                                 "domain": self.data['domain_name'],
                                 "instances": instance_structured_outputs,
                                 }
@@ -285,9 +297,13 @@ class PromptGenerator:
         instance_structured_outputs = []
         structured_output = self.load_json(task_name)
         if structured_output is None:
+            if self.n_examples == 0:
+                prompt_type = "zeroshot"
+            elif self.n_examples == 1:
+                prompt_type = "oneshot"
             structured_output = {
                                 "task": task_name,
-                                "prompt_type": "oneshot",
+                                "prompt_type": prompt_type,
                                 "domain": self.data['domain_name'],
                                 "instances": instance_structured_outputs,
                                 }
@@ -347,9 +363,13 @@ class PromptGenerator:
         instance_structured_outputs = []
         structured_output = self.load_json(task_name)
         if structured_output is None:
+            if self.n_examples == 0:
+                prompt_type = "zeroshot"
+            elif self.n_examples == 1:
+                prompt_type = "oneshot"
             structured_output = {
                                 "task": task_name,
-                                "prompt_type": "oneshot",
+                                "prompt_type": prompt_type,
                                 "domain": self.data['domain_name'],
                                 "instances": instance_structured_outputs,
                                 }
@@ -409,9 +429,13 @@ class PromptGenerator:
         instance_structured_outputs = []
         structured_output = self.load_json(task_name)
         if structured_output is None:
+            if self.n_examples == 0:
+                prompt_type = "zeroshot"
+            elif self.n_examples == 1:
+                prompt_type = "oneshot"
             structured_output = {
                                 "task": task_name,
-                                "prompt_type": "oneshot",
+                                "prompt_type": prompt_type,
                                 "domain": self.data['domain_name'],
                                 "instances": instance_structured_outputs,
                                 }
@@ -454,9 +478,13 @@ class PromptGenerator:
         structured_output = self.load_json(task_name)
         
         if structured_output is None:
+            if self.n_examples == 0:
+                prompt_type = "zeroshot"
+            elif self.n_examples == 1:
+                prompt_type = "oneshot"
             structured_output = {
                                 "task": task_name,
-                                "prompt_type": "oneshot",
+                                "prompt_type": prompt_type,
                                 "domain": self.data['domain_name'],
                                 "instances": instance_structured_outputs,
                                 }
@@ -528,9 +556,13 @@ class PromptGenerator:
         structured_output = self.load_json(task_name)
         
         if structured_output is None:
+            if self.n_examples == 0:
+                prompt_type = "zeroshot"
+            elif self.n_examples == 1:
+                prompt_type = "oneshot"
             structured_output = {
                                 "task": task_name,
-                                "prompt_type": "oneshot",
+                                "prompt_type": prompt_type,
                                 "domain": self.data['domain_name'],
                                 "instances": instance_structured_outputs,
                                 }
@@ -596,9 +628,13 @@ class PromptGenerator:
         structured_output = self.load_json(task_name)
         
         if structured_output is None:
+            if self.n_examples == 0:
+                prompt_type = "zeroshot"
+            elif self.n_examples == 1:
+                prompt_type = "oneshot"
             structured_output = {
                                 "task": task_name,
-                                "prompt_type": "oneshot",
+                                "prompt_type": prompt_type,
                                 "domain": self.data['domain_name'],
                                 "instances": instance_structured_outputs,
                                 }
@@ -667,9 +703,13 @@ class PromptGenerator:
         structured_output = self.load_json(task_name)
         
         if structured_output is None:
+            if self.n_examples == 0:
+                prompt_type = "zeroshot"
+            elif self.n_examples == 1:
+                prompt_type = "oneshot"
             structured_output = {
                                 "task": task_name,
-                                "prompt_type": "oneshot",
+                                "prompt_type": prompt_type,
                                 "domain": self.data['domain_name'],
                                 "instances": instance_structured_outputs,
                                 }
@@ -729,9 +769,13 @@ class PromptGenerator:
         structured_output = self.load_json(task_name)
         
         if structured_output is None:
+            if self.n_examples == 0:
+                prompt_type = "zeroshot"
+            elif self.n_examples == 1:
+                prompt_type = "oneshot"
             structured_output = {
                                 "task": task_name,
-                                "prompt_type": "oneshot",
+                                "prompt_type": prompt_type,
                                 "domain": self.data['domain_name'],
                                 "instances": instance_structured_outputs,
                                 }
@@ -788,9 +832,13 @@ class PromptGenerator:
         structured_output = self.load_json(task_name)
         
         if structured_output is None:
+            if self.n_examples == 0:
+                prompt_type = "zeroshot"
+            elif self.n_examples == 1:
+                prompt_type = "oneshot"
             structured_output = {
                                 "task": task_name,
-                                "prompt_type": "oneshot",
+                                "prompt_type": prompt_type,
                                 "domain": self.data['domain_name'],
                                 "instances": instance_structured_outputs,
                                 }
@@ -870,7 +918,7 @@ if __name__=="__main__":
     ignore_existing = args.ignore_existing
     seed = args.seed
     # print(task, config, verbose, specified_instances, random_example)
-    config_file = f'./configs/{config}.yaml'
+    config_file = f'./plan-bench/configs/{config}.yaml'
     prompt_generator = PromptGenerator(config_file, verbose, ignore_existing, seed)
     if task == 't1':
         prompt_generator.task_1_plan_generation(specified_instances, random_example)
