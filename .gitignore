@@ -10,6 +10,10 @@
 */sas_plan_ver
 utils/__pycache__/*
 
+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
+cmake-image.tar
+.pyc
+
 .venv
 env/
 venv/
@@ -43,4 +47,4 @@ plan-bench/results/mystery_blocksworld_3/text-davinci-002/
 plan-bench/results/random_blocksworld/
 plan-bench/results/random_blocksworld_3/
 plan-bench/examples/
-plan-bench/planner_tools/downward-main/builds/release/CMakeCache.txt
+/planner_tools/downward-main/
