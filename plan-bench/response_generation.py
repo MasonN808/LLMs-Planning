@@ -58,11 +58,8 @@ class ResponseGenerator:
         return {'model': model, 'tokenizer': tokenizer}
 
     def get_llama(self):
-        # TODO: Finish this
-        tokenizer = AutoTokenizer.from_pretrained("bigscience/bloom")
-        model = AutoModelForCausalLM.from_pretrained("bigscience/bloom", cache_dir=cache_dir,
-                                                     local_files_only=False, load_in_8bit=True, device_map='auto',
-                                                     max_memory=max_memory_mapping)
+        tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf", token="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")
+        model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", token="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")
         return {'model': model, 'tokenizer': tokenizer}
 
     def get_responses(self, task_name, specified_instances = [], run_till_completion=False):

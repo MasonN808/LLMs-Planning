@@ -9,14 +9,10 @@ from peft import LoraConfig
 from trl import SFTTrainer
 import gc
 
-tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf")
-model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf")
+tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf", token="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")
+model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", token="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")
 model.config.use_cache = True
-input_ids = tokenizer("Hey how are you doing?", return_tensors= "pt")["input_ids"]
 
-out = model.generate(input_ids, max_new_tokens=10)
-print(tokenizer.batch_decode(out))
-exit()
 # PyTorch memory management
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:1024"
 gc.collect()
@@ -31,12 +27,13 @@ def display_cuda_memory():
 
 # Define model, dataset, and new model name
 base_model = "meta-llama/Llama-2-7b-hf"
-guanaco_dataset = "mlabonne/guanaco-llama2-1k"
-new_model = "llama-2-7b-chat-guanaco"
+blocksworld_dataset = "chiayewken/blocksworld"
+new_model = "llama-2-7b-finetunned"
 
 # Load dataset
-dataset = load_dataset(guanaco_dataset, split="train")
-
+dataset = load_dataset(blocksworld_dataset, split="train")
+print(dataset[:5])
+exit()
 # 4-bit Quantization Configuration
 compute_dtype = getattr(torch, "float16")
 quant_config = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=compute_dtype, bnb_4bit_use_double_quant=False)
