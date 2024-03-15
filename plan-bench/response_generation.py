@@ -9,8 +9,8 @@ from tarski.io import PDDLReader
 import argparse
 import time
 import sys
-from transformers import MambaForCausalLM
-from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModel
+from transformers import AutoTokenizer, AutoModelForCausalLM, MambaForCausalLM, LlamaTokenizer, LlamaForCausalLM
+import torch
 import json
 np.random.seed(42)
 import copy
@@ -36,6 +36,8 @@ class ResponseGenerator:
             self.model = self.get_mamba()
         elif self.engine == 'llama':
             self.model = self.get_llama()
+        elif self.engine == 'llama-3b':
+            self.model = self.get_llama_3b()
         else:
             self.model = None
 
@@ -60,6 +62,14 @@ class ResponseGenerator:
     def get_llama(self):
         tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf", token="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")
         model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", token="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")
+        return {'model': model, 'tokenizer': tokenizer}
+
+    def get_llama_3b(self):
+        model_path = "openlm-research/open_llama_3b_v2"
+        tokenizer = LlamaTokenizer.from_pretrained(model_path)
+        model = LlamaForCausalLM.from_pretrained(
+            model_path, torch_dtype=torch.float16, device_map='auto',
+            )
         return {'model': model, 'tokenizer': tokenizer}
 
     def get_responses(self, task_name, specified_instances = [], run_till_completion=False):
