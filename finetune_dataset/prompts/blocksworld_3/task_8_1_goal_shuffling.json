@@ -1,6 +1,6 @@
 {
     "task": "task_8_1_goal_shuffling",
-    "prompt_type": "zeroshot",
+    "prompt_type": "oneshot",
     "domain": "blocksworld_3",
     "instances": [
         {

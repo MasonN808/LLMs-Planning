@@ -1,6 +1,6 @@
 {
     "task": "task_3_plan_verification",
-    "prompt_type": "zeroshot",
+    "prompt_type": "oneshot",
     "domain": "blocksworld_3",
     "instances": [
         {

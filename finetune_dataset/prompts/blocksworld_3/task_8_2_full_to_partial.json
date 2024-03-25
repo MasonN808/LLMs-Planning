@@ -1,6 +1,6 @@
 {
     "task": "task_8_2_full_to_partial",
-    "prompt_type": "zeroshot",
+    "prompt_type": "oneshot",
     "domain": "blocksworld_3",
     "instances": [
         {
