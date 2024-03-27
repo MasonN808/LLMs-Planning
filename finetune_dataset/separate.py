@@ -3,22 +3,8 @@ from datasets import Dataset, Features, Value
 import os
 
 """
-This file combines all of the prompts into a single dataset for finetunning
+This file separates all of the prompts into a single dataset for finetunning
 """
-
-domain = "blocksworld_3"
-# Get all json files in domain
-directory_path = f'finetune_dataset/prompts/{domain}'
-
-# Initialize an empty list to hold the paths to JSON files
-json_file_paths = []
-
-# Loop through each file in the directory
-for file in os.listdir(directory_path):
-    # Check if the file is a JSON file
-    if file.endswith(".json"):
-        # Construct the full file path and add it to the list
-        json_file_paths.append(os.path.join(directory_path, file))
 
 def extract_up_to(s):
     keyword_plan_end = '[PLAN END]'
@@ -47,11 +33,25 @@ def extract_up_to(s):
     s = s[:end_index]
     return s
 
-# Initialize separate lists for each column
-queries = []
-ground_truth_plans = []
+domain = "blocksworld_3"
+# Get all json files in domain
+directory_path = f'finetune_dataset/prompts/{domain}'
+
+# Initialize an empty list to hold the paths to JSON files
+json_file_paths = []
+
+# Loop through each file in the directory
+for file in os.listdir(directory_path):
+    # Check if the file is a JSON file
+    if file.endswith(".json"):
+        # Construct the full file path and add it to the list
+        json_file_paths.append(os.path.join(directory_path, file))
+
 # Loop through each file path in the list
-for file_path in json_file_paths:
+for idx, file_path in enumerate(json_file_paths):
+    # Initialize separate lists for each column
+    queries = []
+    ground_truth_plans = []
     with open(file_path, 'r') as file:
         data = json.load(file)
         for instance in data['instances']:
@@ -64,18 +64,18 @@ for file_path in json_file_paths:
             else:
                 ground_truth_plans.append(instance['ground_truth_plan'])
 
-data_dict = {
-    'query': queries,
-    'ground_truth_plan': ground_truth_plans
-}
+    data_dict = {
+        'query': queries,
+        'ground_truth_plan': ground_truth_plans
+    }
 
-features = Features({
-    'query': Value('string'),
-    'ground_truth_plan': Value('string')
-})
+    features = Features({
+        'query': Value('string'),
+        'ground_truth_plan': Value('string')
+    })
 
-dataset = Dataset.from_dict(data_dict, features=features)
+    dataset = Dataset.from_dict(data_dict, features=features)
 
-# Save the dataset locally as a JSON file (you can choose other formats like csv)
-dataset_path = 'finetune_dataset/combined_dataset'
-dataset.save_to_disk(dataset_path)
+    # Save the dataset locally as a JSON file (you can choose other formats like csv)
+    dataset_path = f'finetune_dataset/separate_datasets/t{idx}_dataset'
+    dataset.save_to_disk(dataset_path)
