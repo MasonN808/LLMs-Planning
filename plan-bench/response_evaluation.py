@@ -22,7 +22,7 @@ class ResponseEvaluator:
         self.data = self.read_config(config_file)
         self.instance_dir = self.data['instance_dir']
         self.domain_pddl = f'./plan-bench/instances/{self.data["domain_file"]}'
-        self.llm_plan_file = 'llm_plan'
+        self.llm_plan_file = f'./plans/llm_plan-{engine}'
         self._set_task_params()
 
     def read_config(self, config_file):
@@ -54,8 +54,8 @@ class ResponseEvaluator:
         writer.write_files('pr-new-domain.pddl', 'pr-new-problem.pddl')
 
     def load_json(self, task_name):
-        response_dir = f"responses/{self.data['domain_name']}/{self.engine}/"        
-        output_dir = f"results/{self.data['domain_name']}/{self.engine}/"
+        response_dir = f"./plan-bench/responses/{self.data['domain_name']}/{self.engine}/"        
+        output_dir = f"./plan-bench/results/{self.data['domain_name']}/{self.engine}/"
         if not self.ignore_existing and os.path.exists(output_dir+f"{task_name}.json"):
             load_dir = output_dir
         else:
@@ -66,7 +66,7 @@ class ResponseEvaluator:
         return structured_output
             
     def save_json(self, structured_output, task_name):
-        output_dir = f"results/{self.data['domain_name']}/{self.engine}/"        
+        output_dir = f"./plan-bench/results/{self.data['domain_name']}/{self.engine}/"        
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
         with open(output_dir+f"{task_name}.json", 'w') as file:
@@ -256,6 +256,7 @@ class ResponseEvaluator:
                 correct_w_type = False
                 correct_w_expl = False
                 parsed_llm_response = self.parse_output(problem.actions, llm_response)
+                
                 parsed_ground_truth_response = self.parse_output(problem.actions, ground_truth_response)
                 instance_dict["extracted_llm_plan"] = parsed_llm_response
                 instance_dict["parsed_ground_truth_plan"] = parsed_ground_truth_response

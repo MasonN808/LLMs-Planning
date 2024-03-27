@@ -16,7 +16,7 @@ from tqdm import tqdm
 class PromptGenerator:
     def __init__(self,config_file, verbose, ignore_existing, seed) -> None:
         self.n_examples = 1
-        self.output_dir = "prompts"
+        self.output_dir = "./plan-bench/prompts"
         self.verbose = verbose
         self.ignore_existing = ignore_existing
         self.plan_file = "sas_plan"
@@ -82,7 +82,7 @@ class PromptGenerator:
         else:
             return None
     def load_results_json(self, output_file):
-        output_dir = "results"
+        output_dir = "./plan-bench/results"
         engine = "gpt-4_chat"
         assert os.path.exists(f"{output_dir}/{self.data['domain_name']}/{engine}/" + output_file + ".json"), "File does not exist"
         with open(f"{output_dir}/{self.data['domain_name']}/{engine}/" + output_file + ".json", "r") as f:
