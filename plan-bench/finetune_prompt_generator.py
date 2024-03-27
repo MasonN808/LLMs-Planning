@@ -15,7 +15,7 @@ from tqdm import tqdm
 
 class PromptGenerator:
     def __init__(self,config_file, verbose, ignore_existing, seed) -> None:
-        self.n_examples = 0
+        self.n_examples = 1
         self.output_dir = "./finetune_dataset/prompts"
         self.verbose = verbose
         self.ignore_existing = ignore_existing
