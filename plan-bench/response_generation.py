@@ -10,6 +10,7 @@ import argparse
 import time
 import sys
 from transformers import AutoTokenizer, AutoModelForCausalLM, MambaForCausalLM, LlamaTokenizer, LlamaForCausalLM
+from peft import LoraConfig, PeftModel
 import torch
 import json
 np.random.seed(42)
@@ -34,10 +35,14 @@ class ResponseGenerator:
             self.model = {'model':model}
         elif self.engine == 'mamba':
             self.model = self.get_mamba()
+        elif self.engine == 'mamba-finetune':
+            self.model = self.get_mamba_finetune()
         elif self.engine == 'llama':
             self.model = self.get_llama()
         elif self.engine == 'llama-3b':
             self.model = self.get_llama_3b()
+        elif self.engine == 'llama-3b-finetune':
+            self.model = self.get_llama_3b_finetune()
         else:
             self.model = None
 
@@ -58,6 +63,17 @@ class ResponseGenerator:
         tokenizer = AutoTokenizer.from_pretrained("state-spaces/mamba-2.8b-hf")
         model = MambaForCausalLM.from_pretrained("state-spaces/mamba-2.8b-hf")
         return {'model': model, 'tokenizer': tokenizer}
+    
+    def get_mamba_finetune(self):
+        original_model = "state-spaces/mamba-2.8b-hf"
+        finetuned_model = "finetunned_models/mamba/results/checkpoint-339"
+        # lora_config = LoraConfig.from_pretrained(finetuned_model)
+        tokenizer = AutoTokenizer.from_pretrained(original_model)
+        # tokenizer.pad_token = tokenizer.eos_token
+        model = MambaForCausalLM.from_pretrained(original_model)
+        model = PeftModel.from_pretrained(model, finetuned_model)
+        model = model.merge_and_unload()
+        return {'model': model, 'tokenizer': tokenizer}
 
     def get_llama(self):
         tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf", token="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")
@@ -68,12 +84,24 @@ class ResponseGenerator:
         model_path = "openlm-research/open_llama_3b_v2"
         tokenizer = LlamaTokenizer.from_pretrained(model_path)
         model = LlamaForCausalLM.from_pretrained(
-            model_path, torch_dtype=torch.float16, device_map='auto',
+                model_path, torch_dtype=torch.float16
             )
+        return {'model': model, 'tokenizer': tokenizer}
+    
+    def get_llama_3b_finetune(self):
+        original_model = "openlm-research/open_llama_3b_v2"
+        # finetuned_model = "finetunned_models/llama/results/checkpoint-303"
+        finetuned_model = "finetunned_models/llama/results/checkpoint-339"
+        tokenizer = LlamaTokenizer.from_pretrained(original_model)
+        model = LlamaForCausalLM.from_pretrained(
+                original_model, torch_dtype=torch.float16
+            )
+        model = PeftModel.from_pretrained(model, finetuned_model)
+        model = model.merge_and_unload()
         return {'model': model, 'tokenizer': tokenizer}
 
     def get_responses(self, task_name, specified_instances = [], run_till_completion=False):
-        output_dir = f"responses/{self.data['domain_name']}/{self.engine}/"
+        output_dir = f"./plan-bench/responses/{self.data['domain_name']}/{self.engine}/"
         os.makedirs(output_dir, exist_ok=True)
         output_json = output_dir+f"{task_name}.json"
         while True:
@@ -81,7 +109,7 @@ class ResponseGenerator:
                 with open(output_json, 'r') as file:
                     structured_output = json.load(file)
             else:
-                prompt_dir = f"prompts/{self.data['domain_name']}/"
+                prompt_dir = f"./plan-bench/prompts/{self.data['domain_name']}/"
                 assert os.path.exists(prompt_dir+f"{task_name}.json")
                 with open(prompt_dir+f"{task_name}.json", 'r') as file:
                     structured_output = json.load(file)
