@@ -78,7 +78,6 @@ if __name__=="__main__":
         prompt_generator.task_8_3_partial_to_full(specified_instances)
     
     # ========================= Response Generation =========================
-    response_generator = ResponseGenerator(config_file, engine, verbose, ignore_existing)
     task_dict = {
         't1': 'task_1_plan_generation',
         't2': 'task_2_plan_optimality',
@@ -95,6 +94,7 @@ if __name__=="__main__":
         task_name = task_dict[task]
     except:
         raise ValueError("Invalid task name")
+    response_generator = ResponseGenerator(config_file, engine, task_name, verbose, ignore_existing)
     response_generator.get_responses(task_name, run_till_completion=run_till_completion)
 
     # ========================= Response Evaluation =========================

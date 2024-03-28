@@ -18,7 +18,7 @@ import copy
 import time
 from tqdm import tqdm
 class ResponseGenerator:
-    def __init__(self, config_file, engine, verbose, ignore_existing):
+    def __init__(self, config_file, engine, task_name, verbose, ignore_existing):
         self.engine = engine
         self.verbose = verbose
         self.ignore_existing = ignore_existing
@@ -36,13 +36,13 @@ class ResponseGenerator:
         elif self.engine == 'mamba':
             self.model = self.get_mamba()
         elif self.engine == 'mamba-finetune':
-            self.model = self.get_mamba_finetune()
+            self.model = self.get_mamba_finetune(task_name)
         elif self.engine == 'llama':
             self.model = self.get_llama()
         elif self.engine == 'llama-3b':
             self.model = self.get_llama_3b()
         elif self.engine == 'llama-3b-finetune':
-            self.model = self.get_llama_3b_finetune()
+            self.model = self.get_llama_3b_finetune(task_name)
         else:
             self.model = None
 
@@ -64,12 +64,10 @@ class ResponseGenerator:
         model = MambaForCausalLM.from_pretrained("state-spaces/mamba-2.8b-hf")
         return {'model': model, 'tokenizer': tokenizer}
     
-    def get_mamba_finetune(self):
+    def get_mamba_finetune(self, task_name):
         original_model = "state-spaces/mamba-2.8b-hf"
-        finetuned_model = "finetunned_models/mamba/results/checkpoint-339"
-        # lora_config = LoraConfig.from_pretrained(finetuned_model)
+        finetuned_model = f"finetuned_models/mamba/results/{task_name}/checkpoint-36"
         tokenizer = AutoTokenizer.from_pretrained(original_model)
-        # tokenizer.pad_token = tokenizer.eos_token
         model = MambaForCausalLM.from_pretrained(original_model)
         model = PeftModel.from_pretrained(model, finetuned_model)
         model = model.merge_and_unload()
@@ -88,10 +86,9 @@ class ResponseGenerator:
             )
         return {'model': model, 'tokenizer': tokenizer}
     
-    def get_llama_3b_finetune(self):
+    def get_llama_3b_finetune(self, task_name):
         original_model = "openlm-research/open_llama_3b_v2"
-        # finetuned_model = "finetunned_models/llama/results/checkpoint-303"
-        finetuned_model = "finetunned_models/llama/results/checkpoint-339"
+        finetuned_model = f"finetuned_models/llama/results/{task_name}/checkpoint-36"
         tokenizer = LlamaTokenizer.from_pretrained(original_model)
         model = LlamaForCausalLM.from_pretrained(
                 original_model, torch_dtype=torch.float16
