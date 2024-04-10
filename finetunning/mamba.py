@@ -1,8 +1,7 @@
-from datasets import load_dataset, Dataset
-
+from datasets import Dataset
 from transformers import AutoTokenizer, MambaForCausalLM, TrainingArguments
 from trl import SFTTrainer
-from peft import LoraConfig
+from peft import LoraConfig, get_peft_model
 
 MODEL_ID = "state-spaces/mamba-2.8b-hf"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
@@ -35,7 +34,7 @@ dataset_paths = [
 
 def tokenize_function(examples):
     # return tokenizer(examples['query'], padding="max_length", truncation=True, max_length=500)
-    return tokenizer(examples['query'], truncation=True)
+    return tokenizer(examples['query'], truncation=True, max_length=512)
 
 for task_name, dataset_path in zip(task_names, dataset_paths):
     # Load the dataset for the current task
@@ -55,9 +54,9 @@ for task_name, dataset_path in zip(task_names, dataset_paths):
         output_dir=f"./finetuned_models/mamba/results/{task_name}",          # output directory for saving model checkpoints
         num_train_epochs=3,              # number of training epochs
         per_device_train_batch_size=8,   # batch size for training
-        per_device_eval_batch_size=64,    # batch size for evaluation
-        warmup_steps=10,                # number of warmup steps for learning rate scheduler
-        weight_decay=0.01,               # strength of weight decay regularization
+        per_device_eval_batch_size=8,    # batch size for evaluation
+        warmup_steps=5,                # number of warmup steps for learning rate scheduler
+        # weight_decay=0.01,               # strength of weight decay regularization
         logging_dir=f"./logs/{task_name}",            # directory for storing logs
         logging_steps=10,
         learning_rate=2e-3,
@@ -66,15 +65,18 @@ for task_name, dataset_path in zip(task_names, dataset_paths):
         load_best_model_at_end=True,     # load the best model when finished training
     )
 
-    lora_config =  LoraConfig(
+    lora_config = LoraConfig(
             r=8,
             target_modules=["x_proj", "embeddings", "in_proj", "out_proj"],
             task_type="CAUSAL_LM",
             bias="none"
     )
 
+    peft_model = get_peft_model(model, lora_config)
+    peft_model.print_trainable_parameters()
+
     trainer = SFTTrainer(
-        model=model,
+        model=peft_model,
         tokenizer=tokenizer,
         args=training_args,
         peft_config=lora_config,
@@ -88,5 +90,15 @@ for task_name, dataset_path in zip(task_names, dataset_paths):
 
     # Save the model and tokenizer for the current task
     save_directory = f"./finetuned_models/mamba/{task_name}"
-    model.save_pretrained(save_directory)
+    peft_model.save_pretrained(save_directory)
     tokenizer.save_pretrained(save_directory)
+
+    # checkpoint_directory = f"./finetuned_models/mamba/results/{task_name}/checkpoint-36"
+    # main_directory = f"./finetuned_models/mamba/{task_name}"
+
+    # # Add the adapter config to model directory
+    # # Check if the adapter_config.json exists in the checkpoint directory
+    # adapter_config_path = os.path.join(checkpoint_directory, 'adapter_config.json')
+    # if os.path.isfile(adapter_config_path):
+    #     # Move it to the main directory
+    #     shutil.move(adapter_config_path, main_directory)
