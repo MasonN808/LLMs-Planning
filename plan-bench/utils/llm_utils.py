@@ -10,7 +10,7 @@ def generate_from_bloom(model, tokenizer, query, max_tokens):
     stoplist = StoppingCriteriaList([stop])
     output_sequences = model.generate(input_ids=encoded_input['input_ids'].cuda(), max_new_tokens=max_tokens,
                                       temperature=0, top_p=1)
-    return tokenizer.decode(output_sequences[0], skip_special_tokes=True)
+    return tokenizer.decode(output_sequences[0], skip_special_tokens=True)
 def generate_from_mamba(model, tokenizer, query, max_tokens):
     device = "cuda" if th.cuda.is_available() else "cpu"
     # Move model to the selected device
@@ -20,7 +20,7 @@ def generate_from_mamba(model, tokenizer, query, max_tokens):
     stoplist = StoppingCriteriaList([stop])
     output_sequences = model.generate(input_ids=encoded_input['input_ids'].cuda(), max_new_tokens=max_tokens,
                                       top_p=1)
-    return tokenizer.decode(output_sequences[0], skip_special_tokes=True)
+    return tokenizer.decode(output_sequences[0], skip_special_tokens=True)
 def generate_from_mamba_finetune(model, tokenizer, query, max_tokens):
     device = "cuda" if th.cuda.is_available() else "cpu"
     # Move model to the selected device
@@ -30,7 +30,7 @@ def generate_from_mamba_finetune(model, tokenizer, query, max_tokens):
     stoplist = StoppingCriteriaList([stop])
     output_sequences = model.generate(input_ids=encoded_input['input_ids'].cuda(), max_new_tokens=max_tokens,
                                       top_p=1)
-    return tokenizer.decode(output_sequences[0], skip_special_tokes=True)
+    return tokenizer.decode(output_sequences[0], skip_special_tokens=True)
 def generate_from_llama(model, tokenizer, query, max_tokens):
     device = "cuda" if th.cuda.is_available() else "cpu"
     # Move model to the selected device
@@ -40,7 +40,7 @@ def generate_from_llama(model, tokenizer, query, max_tokens):
     stoplist = StoppingCriteriaList([stop])
     output_sequences = model.generate(input_ids=encoded_input['input_ids'].cuda(), max_new_tokens=max_tokens,
                                       top_p=1)
-    return tokenizer.decode(output_sequences[0], skip_special_tokes=True)
+    return tokenizer.decode(output_sequences[0], skip_special_tokens=True)
 def generate_from_llama_3b(model, tokenizer, query, max_tokens):
     device = "cuda" if th.cuda.is_available() else "cpu"
     # Move model to the selected device
@@ -50,7 +50,29 @@ def generate_from_llama_3b(model, tokenizer, query, max_tokens):
     stoplist = StoppingCriteriaList([stop])
     output_sequences = model.generate(input_ids=encoded_input['input_ids'], max_new_tokens=max_tokens,
                                       top_p=1)
-    return tokenizer.decode(output_sequences[0], skip_special_tokes=True)
+    return tokenizer.decode(output_sequences[0], skip_special_tokens=True)
+
+def generate_from_gemma(model, tokenizer, query, max_tokens):
+    device = "cuda" if th.cuda.is_available() else "cpu"
+    # Move model to the selected device
+    model = model.to(device)
+    encoded_input = tokenizer(query, return_tensors='pt').to(device)
+    # Tokenize stop token and get its ID
+    stop = tokenizer("[PLAN END]", add_special_tokens=False)[0]
+    output_sequences = model.generate(input_ids=encoded_input['input_ids'], max_new_tokens=max_tokens,
+                                      top_p=1, eos_token_id=stop)
+    return tokenizer.decode(output_sequences[0], skip_special_tokens=True)
+
+def generate_from_jamba(model, tokenizer, query, max_tokens):
+    device = "cuda" if th.cuda.is_available() else "cpu"
+    # Move model to the selected device
+    model = model.to(device)
+    encoded_input = tokenizer(query, return_tensors='pt').to(device)
+    # Tokenize stop token and get its ID
+    stop = tokenizer("[PLAN END]", add_special_tokens=False)[0]
+    output_sequences = model.generate(input_ids=encoded_input['input_ids'], max_new_tokens=max_tokens,
+                                      top_p=1, eos_token_id=stop)
+    return tokenizer.decode(output_sequences[0], skip_special_tokens=True)
 
 
 def send_query(query, engine, max_tokens, model=None, stop="[STATEMENT]"):
@@ -68,7 +90,7 @@ def send_query(query, engine, max_tokens, model=None, stop="[STATEMENT]"):
             return resp_string
         else:
             assert model is not None
-    if engine == 'mamba':
+    elif engine == 'mamba':
         if model:
             response = generate_from_mamba(model['model'], model['tokenizer'], query, max_tokens)
             response = response.replace(query, '')
@@ -81,7 +103,7 @@ def send_query(query, engine, max_tokens, model=None, stop="[STATEMENT]"):
             return resp_string
         else:
             assert model is not None
-    if engine == 'mamba-finetune':
+    elif engine == 'mamba-finetune':
         if model:
             response = generate_from_mamba_finetune(model['model'], model['tokenizer'], query, max_tokens)
             response = response.replace(query, '')
@@ -94,7 +116,7 @@ def send_query(query, engine, max_tokens, model=None, stop="[STATEMENT]"):
             return resp_string
         else:
             assert model is not None
-    if engine == 'llama':
+    elif engine == 'llama':
         if model:
             response = generate_from_llama(model['model'], model['tokenizer'], query, max_tokens)
             response = response.replace(query, '')
@@ -107,9 +129,35 @@ def send_query(query, engine, max_tokens, model=None, stop="[STATEMENT]"):
             return resp_string
         else:
             assert model is not None
-    if engine == 'llama-3b' or engine == 'llama-3b-finetune':
+    elif engine == 'llama-3b' or engine == 'llama-3b-finetune':
         if model:
             response = generate_from_llama_3b(model['model'], model['tokenizer'], query, max_tokens)
+            response = response.replace(query, '')
+            resp_string = ""
+            for line in response.split('\n'):
+                if '[PLAN END]' in line:
+                    break
+                else:
+                    resp_string += f'{line}\n'
+            return resp_string
+        else:
+            assert model is not None
+    elif engine == 'gemma':
+        if model:
+            response = generate_from_gemma(model['model'], model['tokenizer'], query, max_tokens)
+            response = response.replace(query, '')
+            resp_string = ""
+            for line in response.split('\n'):
+                if '[PLAN END]' in line:
+                    break
+                else:
+                    resp_string += f'{line}\n'
+            return resp_string
+        else:
+            assert model is not None
+    elif engine == 'jamba':
+        if model:
+            response = generate_from_jamba(model['model'], model['tokenizer'], query, max_tokens)
             response = response.replace(query, '')
             resp_string = ""
             for line in response.split('\n'):
