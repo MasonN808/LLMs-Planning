@@ -2,19 +2,14 @@ import os
 import random
 
 import yaml
-from Executor import Executor
 from utils import *
-from pathlib import Path
-from tarski.io import PDDLReader
 import argparse
 import time
-import sys
 from transformers import AutoTokenizer, AutoModelForCausalLM, MambaForCausalLM, LlamaTokenizer, LlamaForCausalLM
-from peft import LoraConfig, PeftModel
+from peft import PeftModel
 import torch
 import json
 np.random.seed(42)
-import copy
 import time
 from tqdm import tqdm
 class ResponseGenerator:
@@ -43,6 +38,10 @@ class ResponseGenerator:
             self.model = self.get_llama_3b()
         elif self.engine == 'llama-3b-finetune':
             self.model = self.get_llama_3b_finetune(task_name)
+        elif self.engine == 'gemma':
+            self.model = self.get_gemma(task_name)
+        elif self.engine == 'jamba':
+            self.model = self.get_jamba(task_name)
         else:
             self.model = None
 
@@ -66,11 +65,10 @@ class ResponseGenerator:
     
     def get_mamba_finetune(self, task_name):
         original_model = "state-spaces/mamba-2.8b-hf"
-        finetuned_model = f"finetuned_models/mamba/results/{task_name}/checkpoint-36"
+        finetuned_model = f"/nas/ucb/mason/LLMs-Planning/finetuned_models/mamba/{task_name}"
         tokenizer = AutoTokenizer.from_pretrained(original_model)
-        model = MambaForCausalLM.from_pretrained(original_model)
-        model = PeftModel.from_pretrained(model, finetuned_model)
-        model = model.merge_and_unload()
+        model = MambaForCausalLM.from_pretrained(finetuned_model)
+
         return {'model': model, 'tokenizer': tokenizer}
 
     def get_llama(self):
@@ -95,6 +93,16 @@ class ResponseGenerator:
             )
         model = PeftModel.from_pretrained(model, finetuned_model)
         model = model.merge_and_unload()
+        return {'model': model, 'tokenizer': tokenizer}
+
+    def get_gemma(self):
+        tokenizer = AutoTokenizer.from_pretrained("google/recurrentgemma-2b-it")
+        model = AutoModelForCausalLM.from_pretrained("google/recurrentgemma-2b-it", device_map="auto")
+        return {'model': model, 'tokenizer': tokenizer}
+    
+    def get_jamba(self):
+        model = AutoModelForCausalLM.from_pretrained("ai21labs/Jamba-v0.1", trust_remote_code=True)
+        tokenizer = AutoTokenizer.from_pretrained("ai21labs/Jamba-v0.1")
         return {'model': model, 'tokenizer': tokenizer}
 
     def get_responses(self, task_name, specified_instances = [], run_till_completion=False):
